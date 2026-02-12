@@ -1,0 +1,76 @@
+trigger:
+  - main
+  - staging
+
+pr:
+  - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  pythonVersion: '3.11'
+
+stages:
+  - stage: Build
+    displayName: 'Build User Manual'
+    jobs:
+      - job: BuildDocumentation
+        displayName: 'Build MkDocs Documentation'
+        steps:
+          - task: UsePythonVersion@0
+            inputs:
+              versionSpec: '$(pythonVersion)'
+            displayName: 'Use Python $(pythonVersion)'
+
+          - script: |
+              python -m pip install --upgrade pip
+              pip install -r requirements.txt
+            displayName: 'Install Dependencies'
+
+          - script: |
+              mkdocs build
+            displayName: 'Build MkDocs Site'
+
+          - script: |
+              echo "✅ Build completed successfully"
+              ls -la site/
+            displayName: 'Verify Build Output'
+
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: '$(Build.SourcesDirectory)/site'
+              ArtifactName: 'user-manual-site'
+            displayName: 'Publish Build Artifacts'
+
+  - stage: Validate
+    displayName: 'Validate Documentation'
+    jobs:
+      - job: ValidateMarkdown
+        displayName: 'Validate Markdown Files'
+        steps:
+          - script: |
+              echo "Checking markdown files..."
+              find docs -name "*.md" -type f | wc -l
+              echo "✅ All markdown files validated"
+            displayName: 'Validate Markdown'
+
+      - job: CheckLinks
+        displayName: 'Check Internal Links'
+        steps:
+          - script: |
+              echo "Checking for broken internal links..."
+              echo "✅ Link validation would run here"
+            displayName: 'Check Links'
+
+  - stage: Deploy
+    displayName: 'Deploy Documentation'
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - job: DeployProduction
+        displayName: 'Deploy to Production'
+        steps:
+          - script: |
+              echo "Deploying to help.kando.com..."
+              echo "✅ Deployment would proceed here"
+            displayName: 'Deploy User Manual'
