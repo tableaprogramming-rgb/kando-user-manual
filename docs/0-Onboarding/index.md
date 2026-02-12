@@ -16,6 +16,13 @@ Welcome to the **Kando Onboarding** section. This section guides new employees, 
 - Configuring team-specific settings
 - Establishing approval workflows
 
+## For Organization Owners
+
+- Initial organization setup
+- Subscription and billing configuration
+- Organization profile and settings
+- First steps with Kando
+
 ## For HR Administrators
 
 - System initialization and setup
@@ -25,6 +32,6 @@ Welcome to the **Kando Onboarding** section. This section guides new employees, 
 
 ---
 
-**Need help?** Check the [Getting Started](../1-Getting-Started/index.md) section or [contact support](../7-Reference/7.4-Getting-Help.md).
+**Need help?** Check the [Getting Started](../1-Getting-Started/index.md) section or [contact support](../8-Reference/7.4-Getting-Help.md).
 
 > Last Updated: 2026-02-12 | Maintained By: Documentation Team
