@@ -18,43 +18,43 @@ Choose your role to get started:
 
 ### 👤 **For Employees**
 Get your job done efficiently with Kando:
-- [Quick Start Guide](docs/1-Getting-Started/1.3-Dashboard-Overview.md) - 5-minute overview
-- [Time Tracking Guide](docs/2-Employee-Guide/2.1-Time-Tracking.md) - Clock in, log time, submit timesheets
-- [Leave Management Guide](docs/2-Employee-Guide/2.2-Leave-Management.md) - Request leave, check balance
-- [View Your Schedule](docs/2-Employee-Guide/2.3-View-Schedule.md) - See your shifts and schedule
-- [Pay & Compensation](docs/2-Employee-Guide/2.4-Payslip-Compensation.md) - View payslips and deductions
+- [Quick Start Guide](manual/1-Getting-Started/1.3-Dashboard-Overview.md) - 5-minute overview
+- [Time Tracking Guide](manual/2-Employee-Guide/2.1-Time-Tracking.md) - Clock in, log time, submit timesheets
+- [Leave Management Guide](manual/2-Employee-Guide/2.2-Leave-Management.md) - Request leave, check balance
+- [View Your Schedule](manual/2-Employee-Guide/2.3-View-Schedule.md) - See your shifts and schedule
+- [Pay & Compensation](manual/2-Employee-Guide/2.4-Payslip-Compensation.md) - View payslips and deductions
 
 ### 👨‍💼 **For Managers**
 Manage your team effectively:
-- [Team Management](docs/3-Manager-Guide/3.1-Team-Management.md) - View team timesheets and attendance
-- [Approving Requests](docs/3-Manager-Guide/3.2-Approving-Requests.md) - Process leave and time requests
-- [Create Schedules](docs/3-Manager-Guide/3.3-Scheduling.md) - Plan shifts and manage schedules
-- [Team Reports](docs/3-Manager-Guide/3.4-Reports.md) - Generate reports and analytics
+- [Team Management](manual/3-Manager-Guide/3.1-Team-Management.md) - View team timesheets and attendance
+- [Approving Requests](manual/3-Manager-Guide/3.2-Approving-Requests.md) - Process leave and time requests
+- [Create Schedules](manual/3-Manager-Guide/3.3-Scheduling.md) - Plan shifts and manage schedules
+- [Team Reports](manual/3-Manager-Guide/3.4-Reports.md) - Generate reports and analytics
 
 ### 💳 **For Organization Owners**
 Manage your subscription and organization:
-- [Organization Profile](docs/4-Owner-Guide/4.1-Organization-Profile.md) - Set up organization name, logo, billing contact
-- [Organization Settings](docs/4-Owner-Guide/4.2-Organization-Settings.md) - Configure timezone, date formats, departments
-- [Subscription Management](docs/4-Owner-Guide/4.3-Subscription-Management.md) - Manage subscription seats and licenses
-- [Billing Contact](docs/4-Owner-Guide/4.4-Billing-Contact.md) - Update billing information
+- [Organization Profile](manual/4-Owner-Guide/4.1-Organization-Profile.md) - Set up organization name, logo, billing contact
+- [Organization Settings](manual/4-Owner-Guide/4.2-Organization-Settings.md) - Configure timezone, date formats, departments
+- [Subscription Management](manual/4-Owner-Guide/4.3-Subscription-Management.md) - Manage subscription seats and licenses
+- [Billing Contact](manual/4-Owner-Guide/4.4-Billing-Contact.md) - Update billing information
 
 ### 👨‍💻 **For HR Administrators**
 Configure and manage the system:
-- [System Setup](docs/5-HR-Admin-Guide/4.1-System-Setup.md) - Initialize Kando for your organization
-- [User Management](docs/5-HR-Admin-Guide/4.2-User-Management.md) - Add users, set roles, manage access
-- [Policy Configuration](docs/5-HR-Admin-Guide/4.3-Policy-Configuration.md) - Set leave policies, shift templates
-- [Payroll Management](docs/5-HR-Admin-Guide/4.4-Payroll-Management.md) - Configure pay structures and process payroll
+- [System Setup](manual/5-HR-Admin-Guide/4.1-System-Setup.md) - Initialize Kando for your organization
+- [User Management](manual/5-HR-Admin-Guide/4.2-User-Management.md) - Add users, set roles, manage access
+- [Policy Configuration](manual/5-HR-Admin-Guide/4.3-Policy-Configuration.md) - Set leave policies, shift templates
+- [Payroll Management](manual/5-HR-Admin-Guide/4.4-Payroll-Management.md) - Configure pay structures and process payroll
 
 ## 🚀 Quick Links
 
 | Topic | Description | Time |
 |-------|-------------|------|
-| [Getting Started](docs/1-Getting-Started/index.md) | Login, setup, dashboard overview | 5 min |
-| [Common Workflows](docs/6-Workflows/index.md) | Step-by-step processes for typical tasks | 10-30 min |
-| [Troubleshooting](docs/7-Troubleshooting/index.md) | Solutions to common problems | As needed |
-| [Glossary](docs/8-Reference/7.1-Glossary.md) | Business terms and explanations | Reference |
-| [FAQ](docs/8-Reference/7.3-FAQ.md) | Answers to common questions | Reference |
-| [Getting Help](docs/8-Reference/7.4-Getting-Help.md) | Contact support and resources | Reference |
+| [Getting Started](manual/1-Getting-Started/index.md) | Login, setup, dashboard overview | 5 min |
+| [Common Workflows](manual/6-Workflows/index.md) | Step-by-step processes for typical tasks | 10-30 min |
+| [Troubleshooting](manual/7-Troubleshooting/index.md) | Solutions to common problems | As needed |
+| [Glossary](manual/8-Reference/7.1-Glossary.md) | Business terms and explanations | Reference |
+| [FAQ](manual/8-Reference/7.3-FAQ.md) | Answers to common questions | Reference |
+| [Getting Help](manual/8-Reference/7.4-Getting-Help.md) | Contact support and resources | Reference |
 
 ## 📖 Table of Contents
 
@@ -127,9 +127,9 @@ Configure and manage the system:
 ## 📞 Getting Help
 
 **Can't find what you're looking for?**
-- [FAQ Section](docs/8-Reference/7.3-FAQ.md) - Common questions answered
-- [Troubleshooting Guide](docs/7-Troubleshooting/index.md) - Solutions to common problems
-- [Getting Help](docs/8-Reference/7.4-Getting-Help.md) - Contact information and support
+- [FAQ Section](manual/8-Reference/7.3-FAQ.md) - Common questions answered
+- [Troubleshooting Guide](manual/7-Troubleshooting/index.md) - Solutions to common problems
+- [Getting Help](manual/8-Reference/7.4-Getting-Help.md) - Contact information and support
 
 **Found an issue with this manual?**
 - Use the feedback process in your organization
@@ -146,7 +146,7 @@ Configure and manage the system:
 ## 🔗 Related Documentation
 
 - **Technical Documentation**: [Developer Wiki](../wiki/Home.md)
-- **System Administrator Guide**: [Admin Documentation](docs/5-HR-Admin-Guide/index.md)
+- **System Administrator Guide**: [Admin Documentation](manual/5-HR-Admin-Guide/index.md)
 - **Training Materials**: [Coming Soon]
 
 ---

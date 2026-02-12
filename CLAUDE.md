@@ -16,16 +16,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Repository Structure
 
 ```
-docs/
+manual/                         # User-facing documentation
 ├── index.md                    # Welcome page with 3-step quickstart
-├── 0-Onboarding/              # Onboarding orientation (1 page)
 ├── 1-Getting-Started/          # Login, setup, dashboard (3 pages - COMPLETE)
 ├── 2-Employee-Guide/           # Time tracking, leave, schedule, payroll (4 pages - COMPLETE)
 ├── 3-Manager-Guide/            # Team management, approvals, scheduling, reports (4 pages - COMPLETE)
-├── 4-HR-Admin-Guide/           # System setup, user management, policies (4 skeleton files)
-├── 5-Workflows/                # Process workflows (4 skeleton files)
-├── 6-Troubleshooting/          # Problem solutions (4 skeleton files)
-└── 7-Reference/                # Glossary, FAQ, help, shortcuts (4 skeleton files)
+├── 4-Owner-Guide/              # Organization, billing, subscriptions (4 pages - COMPLETE)
+├── 5-HR-Admin-Guide/           # System setup, user management, policies (4 skeleton files)
+├── 6-Workflows/                # Process workflows (4 skeleton files)
+├── 7-Troubleshooting/          # Problem solutions (4 skeleton files)
+└── 8-Reference/                # Glossary, FAQ, help, shortcuts (4 skeleton files)
+
+onboarding-strategy/            # Onboarding strategy and planning (NOT user docs)
+├── guides/                     # Onboarding guides by role
+├── strategy/                   # Strategic onboarding approach
+└── walkthroughs/               # User walkthroughs and scenarios
 
 README.md                        # Repository entry point with role-based navigation
 ```
@@ -125,9 +130,9 @@ Include estimated completion times for common tasks to help users find relevant 
 Example:
 ```bash
 # Create new employee guide page
-touch docs/2-Employee-Guide/2.5-New-Feature.md
+touch manual/2-Employee-Guide/2.5-New-Feature.md
 # Edit with template structure and content
-git add docs/2-Employee-Guide/2.5-New-Feature.md
+git add manual/2-Employee-Guide/2.5-New-Feature.md
 git commit -m "feat: Add New Feature guide to Employee Guide section"
 ```
 
@@ -139,13 +144,13 @@ git commit -m "feat: Add New Feature guide to Employee Guide section"
 
 Example:
 ```bash
-git add docs/2-Employee-Guide/2.1-Time-Tracking.md
+git add manual/2-Employee-Guide/2.1-Time-Tracking.md
 git commit -m "docs: Update Time Tracking with new clock-in UI changes"
 ```
 
 ### Completing Skeleton Pages
 
-1. **Open skeleton file** in section (e.g., `4-HR-Admin-Guide/4.1-System-Setup.md`)
+1. **Open skeleton file** in section (e.g., `manual/5-HR-Admin-Guide/4.1-System-Setup.md`)
 2. **Replace placeholders** with actual content
 3. **Follow content patterns** from completed pages in same section
 4. **Update Last Updated date**
@@ -153,7 +158,7 @@ git commit -m "docs: Update Time Tracking with new clock-in UI changes"
 
 ### Creating New Section
 
-1. **Create directory**: `docs/[Number]-[Section Name]/`
+1. **Create directory**: `manual/[Number]-[Section Name]/`
 2. **Create index.md**: Navigation page for section
 3. **Create skeleton files**: One for each subsection
 4. **Update README.md**: Add section link and description
@@ -169,10 +174,10 @@ git status
 git log --oneline -10
 
 # Preview changes before committing
-git diff docs/
+git diff manual/
 
 # Stage specific files
-git add docs/[section]/[page].md
+git add manual/[section]/[page].md
 
 # Commit with clear message following pattern
 git commit -m "feat: Add [feature]" or "docs: Update [page]"
@@ -236,11 +241,17 @@ Every documentation page must include at the bottom:
 1. **Initial Setup** - Repository structure and README
 2. **Phase 1** - Core user guides (Getting Started, Employee Guide, Manager Guide)
 3. **Housekeeping** - Removed MkDocs, CI/CD config, dev guidelines (focus on markdown-only documentation)
-4. **Onboarding Section** - Added orientation section
+4. **Owner Guide** - Added comprehensive Owner/Billing section (4 pages)
+5. **Folder Reorganization** - Renamed `docs/` → `manual/`, `onboarding/` → `onboarding-strategy/`
+6. **Section Renumbering** - Shifted HR Admin and subsequent sections to accommodate Owner Guide
 
 **Pending Phases**:
 - Phase 2: Complete HR Admin, Workflows, Troubleshooting, Reference sections
 - Phase 3: User testing and refinement based on feedback
+
+**Folder Naming Convention**:
+- `manual/` - User-facing documentation for different roles
+- `onboarding-strategy/` - Internal planning and strategy (not user documentation)
 
 ## Support and Contacts
 
