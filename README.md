@@ -60,8 +60,6 @@ Configure and manage the system:
 
 ```
 📘 Kando User Manual
-├── 0. Onboarding
-│   └── Welcome & Orientation
 ├── 1. Getting Started
 │   ├── Introduction
 │   ├── Login & Setup
@@ -129,9 +127,9 @@ Configure and manage the system:
 ## 📞 Getting Help
 
 **Can't find what you're looking for?**
-- [FAQ Section](docs/7-Reference/7.3-FAQ.md) - Common questions answered
-- [Troubleshooting Guide](docs/6-Troubleshooting/index.md) - Solutions to common problems
-- [Getting Help](docs/7-Reference/7.4-Getting-Help.md) - Contact information and support
+- [FAQ Section](docs/8-Reference/7.3-FAQ.md) - Common questions answered
+- [Troubleshooting Guide](docs/7-Troubleshooting/index.md) - Solutions to common problems
+- [Getting Help](docs/8-Reference/7.4-Getting-Help.md) - Contact information and support
 
 **Found an issue with this manual?**
 - Use the feedback process in your organization
