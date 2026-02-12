@@ -18,10 +18,10 @@ Welcome to the **Kando Onboarding** section. This section guides new employees, 
 
 ## For Organization Owners
 
-- Initial organization setup
-- Subscription and billing configuration
-- Organization profile and settings
-- First steps with Kando
+- [Organization Profile](../4-Owner-Guide/4.1-Organization-Profile.md) - Set up organization details and logo
+- [Organization Settings](../4-Owner-Guide/4.2-Organization-Settings.md) - Configure timezone and preferences
+- [Subscription Management](../4-Owner-Guide/4.3-Subscription-Management.md) - Manage user licenses
+- [Billing Contact](../4-Owner-Guide/4.4-Billing-Contact.md) - Update billing information
 
 ## For HR Administrators
 

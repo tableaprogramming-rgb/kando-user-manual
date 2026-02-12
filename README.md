@@ -31,58 +31,72 @@ Manage your team effectively:
 - [Create Schedules](docs/3-Manager-Guide/3.3-Scheduling.md) - Plan shifts and manage schedules
 - [Team Reports](docs/3-Manager-Guide/3.4-Reports.md) - Generate reports and analytics
 
+### 💳 **For Organization Owners**
+Manage your subscription and organization:
+- [Organization Profile](docs/4-Owner-Guide/4.1-Organization-Profile.md) - Set up organization name, logo, billing contact
+- [Organization Settings](docs/4-Owner-Guide/4.2-Organization-Settings.md) - Configure timezone, date formats, departments
+- [Subscription Management](docs/4-Owner-Guide/4.3-Subscription-Management.md) - Manage subscription seats and licenses
+- [Billing Contact](docs/4-Owner-Guide/4.4-Billing-Contact.md) - Update billing information
+
 ### 👨‍💻 **For HR Administrators**
 Configure and manage the system:
-- [System Setup](docs/4-HR-Admin-Guide/4.1-System-Setup.md) - Initialize Kando for your organization
-- [User Management](docs/4-HR-Admin-Guide/4.2-User-Management.md) - Add users, set roles, manage access
-- [Policy Configuration](docs/4-HR-Admin-Guide/4.3-Policy-Configuration.md) - Set leave policies, shift templates
-- [Payroll Management](docs/4-HR-Admin-Guide/4.4-Payroll-Management.md) - Configure pay structures and process payroll
+- [System Setup](docs/5-HR-Admin-Guide/4.1-System-Setup.md) - Initialize Kando for your organization
+- [User Management](docs/5-HR-Admin-Guide/4.2-User-Management.md) - Add users, set roles, manage access
+- [Policy Configuration](docs/5-HR-Admin-Guide/4.3-Policy-Configuration.md) - Set leave policies, shift templates
+- [Payroll Management](docs/5-HR-Admin-Guide/4.4-Payroll-Management.md) - Configure pay structures and process payroll
 
 ## 🚀 Quick Links
 
 | Topic | Description | Time |
 |-------|-------------|------|
 | [Getting Started](docs/1-Getting-Started/index.md) | Login, setup, dashboard overview | 5 min |
-| [Common Workflows](docs/5-Workflows/index.md) | Step-by-step processes for typical tasks | 10-30 min |
-| [Troubleshooting](docs/6-Troubleshooting/index.md) | Solutions to common problems | As needed |
-| [Glossary](docs/7-Reference/7.1-Glossary.md) | Business terms and explanations | Reference |
-| [FAQ](docs/7-Reference/7.3-FAQ.md) | Answers to common questions | Reference |
-| [Getting Help](docs/7-Reference/7.4-Getting-Help.md) | Contact support and resources | Reference |
+| [Common Workflows](docs/6-Workflows/index.md) | Step-by-step processes for typical tasks | 10-30 min |
+| [Troubleshooting](docs/7-Troubleshooting/index.md) | Solutions to common problems | As needed |
+| [Glossary](docs/8-Reference/7.1-Glossary.md) | Business terms and explanations | Reference |
+| [FAQ](docs/8-Reference/7.3-FAQ.md) | Answers to common questions | Reference |
+| [Getting Help](docs/8-Reference/7.4-Getting-Help.md) | Contact support and resources | Reference |
 
 ## 📖 Table of Contents
 
 ```
 📘 Kando User Manual
-├── Getting Started
+├── 0. Onboarding
+│   └── Welcome & Orientation
+├── 1. Getting Started
 │   ├── Introduction
 │   ├── Login & Setup
 │   └── Dashboard Overview
-├── Employee Guide
+├── 2. Employee Guide
 │   ├── Time Tracking
 │   ├── Leave Management
 │   ├── View Schedule
 │   └── Payslip & Compensation
-├── Manager Guide
+├── 3. Manager Guide
 │   ├── Team Management
 │   ├── Approving Requests
 │   ├── Create Schedules
 │   └── Reports
-├── HR Admin Guide
+├── 4. Owner Guide
+│   ├── Organization Profile
+│   ├── Organization Settings
+│   ├── Subscription Management
+│   └── Billing Contact
+├── 5. HR Admin Guide
 │   ├── System Setup
 │   ├── User Management
 │   ├── Policy Configuration
 │   └── Payroll Management
-├── Common Workflows
+├── 6. Common Workflows
 │   ├── New Employee Onboarding
 │   ├── Leave Approval Process
 │   ├── Monthly Payroll
 │   └── Shift Scheduling
-├── Troubleshooting
+├── 7. Troubleshooting
 │   ├── Login Issues
 │   ├── Time Tracking Issues
 │   ├── Request Problems
 │   └── General Issues
-└── Reference
+└── 8. Reference
     ├── Glossary
     ├── Keyboard Shortcuts
     ├── FAQ
@@ -91,7 +105,7 @@ Configure and manage the system:
 
 ## 🔍 How to Use This Manual
 
-1. **Find Your Role** - Employee, Manager, or HR Admin?
+1. **Find Your Role** - Employee, Manager, Organization Owner, or HR Admin?
 2. **Choose Your Task** - What do you need to do?
 3. **Follow the Steps** - Clear, numbered instructions
 4. **Check Examples** - Visual descriptions of screens and buttons
@@ -134,7 +148,7 @@ Configure and manage the system:
 ## 🔗 Related Documentation
 
 - **Technical Documentation**: [Developer Wiki](../wiki/Home.md)
-- **System Administrator Guide**: [Admin Documentation](docs/4-HR-Admin-Guide/index.md)
+- **System Administrator Guide**: [Admin Documentation](docs/5-HR-Admin-Guide/index.md)
 - **Training Materials**: [Coming Soon]
 
 ---
