@@ -27,10 +27,10 @@ manual/                         # User-facing documentation
 ├── 7-Troubleshooting/          # Problem solutions (4 skeleton files)
 └── 8-Reference/                # Glossary, FAQ, help, shortcuts (4 skeleton files)
 
-onboarding-strategy/            # Onboarding strategy and planning (NOT user docs)
-├── guides/                     # Onboarding guides by role
-├── strategy/                   # Strategic onboarding approach
-└── walkthroughs/               # User walkthroughs and scenarios
+onboarding-strategy/            # Dev team planning & system improvement (NOT user docs)
+├── guides/                     # Implementation guides for onboarding features
+├── strategy/                   # Strategic design & blueprints for onboarding UX
+└── walkthroughs/               # User scenarios & experience flows for developers
 
 README.md                        # Repository entry point with role-based navigation
 ```
@@ -208,6 +208,22 @@ git status  # Shows "Your branch is ahead of 'origin/main' by X commits"
 - **Time-Aware**: Quick links show estimated completion time
 - **Cross-Referenced**: Related pages linked throughout for discovery
 
+## Folder Purposes
+
+### `manual/` Folder
+- **User-facing documentation** for Kando system end-users
+- Step-by-step guides for Employees, Managers, Owners, and HR Admins
+- Published to Azure DevOps Wiki for customer access
+- Organized by role and task
+
+### `onboarding-strategy/` Folder
+- **Development team internal documentation**
+- Strategic planning and blueprints for improving the onboarding experience
+- Implementation guides for building/improving onboarding features
+- User flow scenarios and experience walkthroughs from a developer perspective
+- NOT customer-facing documentation
+- Used to plan how to enhance the system's onboarding capabilities
+
 ## Important Notes
 
 ### Git Permissions
@@ -250,8 +266,8 @@ Every documentation page must include at the bottom:
 - Phase 3: User testing and refinement based on feedback
 
 **Folder Naming Convention**:
-- `manual/` - User-facing documentation for different roles
-- `onboarding-strategy/` - Internal planning and strategy (not user documentation)
+- `manual/` - User-facing documentation for different roles (published to Azure DevOps Wiki)
+- `onboarding-strategy/` - Internal dev team documentation for planning & improving the onboarding system
 
 ## Support and Contacts
 
