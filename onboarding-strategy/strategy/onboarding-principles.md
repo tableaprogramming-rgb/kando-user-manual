@@ -4,6 +4,7 @@ Our onboarding strategy is built on four core principles designed to reduce fric
 
 ## 1. Productive First Session
 **Goal**: Every user should complete at least one meaningful task within their first 15 minutes.
+- **For Owners**: This means setting up organization profile and verifying billing contact.
 - **For Employees**: This means clocking in or checking their schedule.
 - **For Managers**: This means approving a request or viewing their team status.
 - **For HR Admins**: This means configuring a basic policy or adding a user.
@@ -28,8 +29,17 @@ We do *not* force users to sit through verified tutorials before they can touch 
 - **Action-Triggered**: The guide advances only when the user performs the action.
 - **Celebrate Wins**: Use micro-interactions (confetti, checkmarks, success toasts) when a milestone is reached to provide positive reinforcement.
 
+## 5. Owner-First Architecture
+**Foundation**: The Owner role is the cornerstone of all other onboarding experiences.
+- **Owner must complete setup FIRST**: Organization profile, billing, settings configured before any other users can be added.
+- **Owner unblocks HR Admin**: Only after Owner assigns seats can HR Admin access the system.
+- **HR Admin unblocks Teams**: Only after HR Admin creates users can Managers and Employees login.
+- **Implication**: Prioritize Owner onboarding above all else. If Owner doesn't complete their checklist, the entire organization is blocked.
+
 ## Success Metrics
 How we measure if onboarding is working:
 - **Time to First Value**: How many minutes from login to first key action?
 - **Completion Rate**: Percentage of users who complete the "Getting Started" checklist.
 - **Support Ticket Volume**: Reduction in "How do I...?" tickets from new users.
+- **Owner Completion Rate** (Critical): % of Owners completing setup within first session (should be >95%).
+- **Unblock Rate**: % of HR Admins gaining access within 24 hours of Owner completion.
