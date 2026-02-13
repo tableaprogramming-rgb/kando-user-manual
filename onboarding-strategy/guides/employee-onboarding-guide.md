@@ -52,7 +52,7 @@ Complete these 5 steps to get fully set up:
 
 - **Mobile App**: Did you know Kando has a mobile app? accurate-time-tracking and schedule-checking on the go! Ask your manager for the download link.
 - **Forgot to Clock In?**: If you forget, don't panic! You can add a "Manual Time Entry" and your manager just needs to approve it.
-- **Need Help?**: Click the **?** icon in the top right corner for support or check the [FAQ](../docs/7-Reference/7.3-FAQ.md).
+- **Need Help?**: Click the **?** icon in the top right corner for support or check the [FAQ](../manual/8-Reference/7.3-FAQ.md).
 
 ---
 
@@ -61,4 +61,4 @@ Complete these 5 steps to get fully set up:
 Once you've checked off the items above, you're ready to go.
 
 **Next Steps:**
-- Read the full [Employee Guide](../docs/2-Employee-Guide/2.1-Time-Tracking.md) for deeper details.
+- Read the full [Employee Guide](../manual/2-Employee-Guide/2.1-Time-Tracking.md) for deeper details.

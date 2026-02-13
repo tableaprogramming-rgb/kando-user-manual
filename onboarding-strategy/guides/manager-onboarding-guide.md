@@ -64,4 +64,4 @@ This guide will help you master the basics in about **20 minutes**.
 Your team is waiting.
 
 **Next Steps:**
-- Read the full [Manager Guide](../docs/3-Manager-Guide/3.1-Team-Management.md) for advanced tips.
+- Read the full [Manager Guide](../manual/3-Manager-Guide/3.1-Team-Management.md) for advanced tips.
