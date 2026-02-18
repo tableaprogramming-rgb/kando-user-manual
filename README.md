@@ -49,9 +49,9 @@ Configure and manage the system:
 
 | Topic | Description | Time |
 |-------|-------------|------|
-| [Getting Started](manual/1-Getting-Started/index.md) | Login, setup, dashboard overview | 5 min |
-| [Common Workflows](manual/6-Workflows/index.md) | Step-by-step processes for typical tasks | 10-30 min |
-| [Troubleshooting](manual/7-Troubleshooting/index.md) | Solutions to common problems | As needed |
+| [Getting Started](manual/1-Getting-Started/1.1-Introduction.md) | Login, setup, dashboard overview | 5 min |
+| [Common Workflows](manual/6-Workflows/5.1-Onboarding.md) | Step-by-step processes for typical tasks | 10-30 min |
+| [Troubleshooting](manual/7-Troubleshooting/ERROR_REFERENCE.md) | Solutions to common problems | As needed |
 | [Glossary](manual/8-Reference/7.1-Glossary.md) | Business terms and explanations | Reference |
 | [FAQ](manual/8-Reference/7.3-FAQ.md) | Answers to common questions | Reference |
 | [Getting Help](manual/8-Reference/7.4-Getting-Help.md) | Contact support and resources | Reference |
@@ -139,7 +139,7 @@ Configure and manage the system:
 ## 📚 Document Information
 
 - **Version**: 1.0
-- **Last Updated**: 2026-02-12
+- **Last Updated**: 2026-02-18
 - **Maintained By**: Training & Documentation Team
 - **For Questions**: documentation@kando.com
 

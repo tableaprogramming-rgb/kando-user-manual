@@ -58,7 +58,7 @@ Each guide provides clear, numbered instructions to complete your task.
 
   Set up Kando for your organization, manage users, configure policies, and process payroll.
 
-- 📋 **[Common Workflows](5-Workflows/5.1-Onboarding.md)**
+- 📋 **[Common Workflows](6-Workflows/5.1-Onboarding.md)**
 
   Step-by-step guides for typical processes like onboarding, leave approval, and payroll.
 
