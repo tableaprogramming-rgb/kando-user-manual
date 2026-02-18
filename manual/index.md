@@ -62,11 +62,11 @@ Each guide provides clear, numbered instructions to complete your task.
 
   Step-by-step guides for typical processes like onboarding, leave approval, and payroll.
 
-- 🔧 **[Troubleshooting](6-Troubleshooting/6.1-Login-Issues.md)**
+- 🔧 **[Troubleshooting](7-Troubleshooting/ERROR_REFERENCE.md)**
 
   Something not working? Find solutions to common problems and errors.
 
-- 📚 **[Reference](7-Reference/7.1-Glossary.md)**
+- 📚 **[Reference](8-Reference/7.1-Glossary.md)**
 
   Glossary, shortcuts, FAQ, and how to get additional help.
 
@@ -87,6 +87,7 @@ Each guide provides clear, numbered instructions to complete your task.
 | Create team schedule | 15 min | [Create Schedules](3-Manager-Guide/3.3-Scheduling.md) |
 | Understand your role | 10 min | [Understanding Your Role](1-Getting-Started/1.5-Understanding-Your-Role.md) |
 | System setup checklist | 15 min | [System Setup Requirements](1-Getting-Started/1.4-System-Setup-Requirements.md) |
+| Understand an error message | 3 min | [Error Reference](7-Troubleshooting/ERROR_REFERENCE.md) |
 | Set up the system | 30 min | [System Setup](5-HR-Admin-Guide/4.1-System-Setup.md) |
 | Add a new user | 5 min | [User Management](5-HR-Admin-Guide/4.2-User-Management.md) |
 | Process payroll | 20 min | [Payroll Management](5-HR-Admin-Guide/4.4-Payroll-Management.md) |
@@ -94,9 +95,9 @@ Each guide provides clear, numbered instructions to complete your task.
 ### Getting Help
 
 **Stuck?**
-- Check [Troubleshooting](6-Troubleshooting/index.md) for solutions
-- See [FAQ](7-Reference/7.3-FAQ.md) for common questions
-- [Contact support](7-Reference/7.4-Getting-Help.md) for additional help
+- Check [Troubleshooting](7-Troubleshooting/ERROR_REFERENCE.md) for error solutions
+- See [FAQ](8-Reference/7.3-FAQ.md) for common questions
+- [Contact support](8-Reference/7.4-Getting-Help.md) for additional help
 
 ## What You'll Find in This Manual
 
@@ -182,7 +183,7 @@ Choose your path:
 - 👨‍💼 **[Manager Guide →](3-Manager-Guide/3.1-Team-Management.md)** - Managing a team?
 - 👨‍💻 **[Admin Guide →](5-HR-Admin-Guide/4.1-System-Setup.md)** - Setting up the system?
 
-**Questions?** Check [Getting Help](7-Reference/7.4-Getting-Help.md)
+**Questions?** Check [Getting Help](8-Reference/7.4-Getting-Help.md)
 
 ---
 
