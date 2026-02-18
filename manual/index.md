@@ -85,6 +85,7 @@ Each guide provides clear, numbered instructions to complete your task.
 | View payslip | 2 min | [Payslip & Compensation](2-Employee-Guide/2.4-Payslip-Compensation.md) |
 | Approve leave request | 3 min | [Approving Requests](3-Manager-Guide/3.2-Approving-Requests.md) |
 | Create team schedule | 15 min | [Create Schedules](3-Manager-Guide/3.3-Scheduling.md) |
+| Understand your role | 10 min | [Understanding Your Role](1-Getting-Started/1.5-Understanding-Your-Role.md) |
 | System setup checklist | 15 min | [System Setup Requirements](1-Getting-Started/1.4-System-Setup-Requirements.md) |
 | Set up the system | 30 min | [System Setup](5-HR-Admin-Guide/4.1-System-Setup.md) |
 | Add a new user | 5 min | [User Management](5-HR-Admin-Guide/4.2-User-Management.md) |
