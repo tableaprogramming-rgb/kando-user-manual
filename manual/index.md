@@ -172,6 +172,10 @@ Kando helps organizations manage:
 - **Last Updated**: 2026-02-12
 - **Supported Browsers**: Chrome 90+, Safari 14+, Firefox 88+, Edge 90+
 
+## Documentation Updates
+
+📋 **[View Changelog](CHANGELOG.md)** - See what's new in this release and past updates
+
 ---
 
 ## Ready to Get Started?
