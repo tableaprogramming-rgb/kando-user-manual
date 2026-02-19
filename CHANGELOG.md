@@ -7,6 +7,7 @@ All notable changes to the Kando User Manual are documented in this file.
 ### 📝 Repository Documentation
 - **README Revision** (commit da12ee6) - Updated README with latest repository structure, clarified distinction between `manual/` (user docs) and `onboarding-strategy/` (dev planning), added CHANGELOG references, created quick-start guide for different user types
 - **CHANGELOG Integration** (commits 51cf21c, 5c43676, f3bd3fd) - Created comprehensive CHANGELOG at root level documenting all project changes across manual/ and onboarding-strategy/ folders
+- **Manual Index Update** (commit ebc7071) - Updated `manual/index.md` last updated date to 2026-02-19 to reflect latest documentation changes
 - **Project Memory** - Added comprehensive MEMORY.md with workflow standards, naming conventions, style guidelines, and gotchas for future sessions
 
 ### 🗂️ Repository Structure Clarified
