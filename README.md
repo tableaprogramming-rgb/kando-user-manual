@@ -1,6 +1,32 @@
-# Kando User Manual
+# Kando User Manual & Documentation Repository
 
-Welcome to the **Kando User Manual** - your complete guide to using the Kando workforce management system.
+Welcome to the **Kando User Manual & Documentation** repository - home to both **business user guides** and **internal development planning documentation** for the Kando workforce management system.
+
+## 📁 Repository Structure
+
+This repository contains **two distinct documentation folders** with different purposes:
+
+### 👥 **`manual/`** - User-Facing Business Documentation
+**For**: Employees, Managers, HR Administrators, Organization Owners
+**Purpose**: Step-by-step guides for using Kando in your daily work
+**Language**: Non-technical, action-oriented, business-focused
+**Published To**: Azure DevOps Wiki (auto-publishes on each push)
+**Location**: [/manual/](manual/)
+
+### 🛠️ **`onboarding-strategy/`** - Internal Development Planning
+**For**: Development team members and system architects
+**Purpose**: Strategic planning, implementation guides, and system design documentation
+**Language**: Technical, design-focused, internal team communication
+**Published To**: Internal team resources (not customer-facing)
+**Location**: [/onboarding-strategy/](onboarding-strategy/)
+
+### 📋 **`CHANGELOG.md`** - Release History
+**Purpose**: Complete audit trail of all changes to the repository
+**Coverage**: Changes across both manual/ and onboarding-strategy/ folders
+**Updated**: With every push to document new features, updates, and improvements
+**Location**: [CHANGELOG.md](CHANGELOG.md)
+
+---
 
 ## 🎯 What is Kando?
 
@@ -12,9 +38,10 @@ Kando is a comprehensive **workforce management system** that helps organization
 - ✅ Approval workflows
 - 📈 Reporting and analytics
 
-## 📚 User Guides
+## 📚 User Guides (From `/manual/` Folder)
 
-Choose your role to get started:
+**📌 Business users**: Choose your role to get started:
+*(These guides are published to Azure DevOps Wiki and available to all Kando users)*
 
 ### 👤 **For Employees**
 Get your job done efficiently with Kando:
@@ -101,6 +128,42 @@ Configure and manage the system:
     └── Getting Help
 ```
 
+---
+
+## 🎯 Which Documentation Should I Use?
+
+### 👥 I'm an **End-User** (Employee, Manager, HR Admin, Organization Owner)
+👉 **Use `/manual/` folder** → Available in [Azure DevOps Wiki](../wiki/Home.md)
+
+**What you'll find:**
+- Step-by-step guides for your daily tasks
+- How to clock in, request leave, approve timesheets, etc.
+- Tips, troubleshooting, and best practices
+- Non-technical language you can understand
+- Links: [Getting Started](manual/1-Getting-Started/1.1-Introduction.md) | [Employee Guide](manual/2-Employee-Guide/index.md) | [Manager Guide](manual/3-Manager-Guide/index.md)
+
+### 🛠️ I'm a **Developer or Technical Architect**
+👉 **Use `/onboarding-strategy/` folder** → Internal team documentation
+
+**What you'll find:**
+- System design and architecture planning
+- Implementation guides for new features
+- Integration strategies and technical decisions
+- Code examples and system flows
+- Internal team communication (not published to customers)
+
+### 📋 I want to **See What Changed Recently**
+👉 **Use [CHANGELOG.md](CHANGELOG.md)** → Complete release history
+
+**What you'll find:**
+- New features added to the manual
+- Documentation updates and improvements
+- Infrastructure changes
+- Development improvements
+- Complete git commit reference
+
+---
+
 ## 🔍 How to Use This Manual
 
 1. **Find Your Role** - Employee, Manager, Organization Owner, or HR Admin?
@@ -138,16 +201,28 @@ Configure and manage the system:
 
 ## 📚 Document Information
 
-- **Version**: 1.0
-- **Last Updated**: 2026-02-18
+- **Repository Type**: Business Documentation + Internal Development Planning
+- **Version**: 1.0 (Phase 3 Complete)
+- **Last Updated**: 2026-02-19
 - **Maintained By**: Training & Documentation Team
 - **For Questions**: documentation@kando.com
+- **Change History**: See [CHANGELOG.md](CHANGELOG.md)
+
+## 📂 Key Folders & Their Purposes
+
+| Folder | Purpose | Audience | Published |
+|--------|---------|----------|-----------|
+| **`manual/`** | User guides for Kando system | Business users (Employees, Managers, HR, Owners) | ✅ Azure DevOps Wiki |
+| **`onboarding-strategy/`** | Development planning & architecture | Development & technical teams | ❌ Internal only |
+| **Root level** | Repository configuration & changelog | All stakeholders | ✅ Git repository |
 
 ## 🔗 Related Documentation
 
-- **Technical Documentation**: [Developer Wiki](../wiki/Home.md)
-- **System Administrator Guide**: [Admin Documentation](manual/5-HR-Admin-Guide/index.md)
-- **Training Materials**: [Coming Soon]
+- **Release Changes**: [CHANGELOG.md](CHANGELOG.md) - See what's new in each release
+- **Development Strategy**: [/onboarding-strategy/](onboarding-strategy/) - Internal team planning (not for end-users)
+- **HR Admin Guide**: [Admin Documentation](manual/5-HR-Admin-Guide/index.md) - System configuration guides
+- **All User Guides**: [/manual/](manual/) - Browse all business user documentation
+- **Technical Documentation**: [Developer Wiki](../wiki/Home.md) - Backend & frontend technical docs
 
 ---
 
