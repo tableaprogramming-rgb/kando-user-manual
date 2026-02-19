@@ -169,7 +169,7 @@ Kando helps organizations manage:
 ## Version Info
 
 - **System Version**: 2.5.0
-- **Last Updated**: 2026-02-12
+- **Last Updated**: 2026-02-19
 - **Supported Browsers**: Chrome 90+, Safari 14+, Firefox 88+, Edge 90+
 
 ---
