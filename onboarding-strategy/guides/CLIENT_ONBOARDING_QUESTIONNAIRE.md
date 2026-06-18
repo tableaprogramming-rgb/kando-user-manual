@@ -79,8 +79,38 @@
 
 ## 📅 SECTION 3: LEAVE & ABSENCE MANAGEMENT
 
+> **💡 This section is critical** - Your leave policies affect payroll, compliance, and employee satisfaction. Take time to answer accurately. If you're unsure about your current policies, contact your HR/Finance manager before completing this section.
+
 ### 3.1 Leave Types & Policies
 **List all your leave types and their policies:**
+
+#### 📌 Understanding Leave Policy Types
+
+Before filling the table below, understand the three policy types:
+
+**🔄 ACCRUAL** - System automatically accumulates leave over time
+- *How it works*: Employees earn/accrue leave each month or period automatically
+- *Example 1*: "Annual Leave: 15 days/year" → System gives 1.25 days each month on the 1st
+- *Example 2*: "Sick Leave: 10 days/year" → System gives 0.83 days each month
+- *Best for*: Annual leave, sick leave, regular paid time off
+- *Employee balance*: Grows automatically, decreases when they take leave
+- *HR responsibility*: Set the accrual rate once; system handles the rest
+
+**🎯 FLEXIBLE** - Employees can take leave without a pre-set limit (often called "unlimited" or "discretionary")
+- *How it works*: No balance tracking; approval is based on judgment/policy rather than available days
+- *Example 1*: "Unlimited vacation - take what you need with manager approval"
+- *Example 2*: "Emergency leave - take up to 3 days per incident with HR sign-off"
+- *Best for*: Unlimited/discretionary policies, emergency leave, special circumstances
+- *Employee balance*: No balance shown (or capped by company policy)
+- *HR responsibility*: Monitor approval to ensure fairness; may set thresholds ("max 5 days per request")
+
+**✋ MANUAL** - HR admin manually sets balance for each employee
+- *How it works*: HR determines balance (usually once/year) and maintains it manually
+- *Example 1*: Employee hired mid-year; HR sets "5 days annual leave" (prorated from 15 days)
+- *Example 2*: Retention bonus; HR manually adds "2 extra vacation days" to specific employee
+- *Best for*: Prorated leave for new hires, irregular entitlements, exceptions
+- *Employee balance*: Set by HR; can be adjusted as needed
+- *HR responsibility*: Update balances manually; good for custom cases
 
 | Leave Type | Annual Entitlement | Policy Type | Notes |
 |---|---|---|---|
@@ -92,12 +122,62 @@
 | Bereavement Leave | ____ days | ☐ Accrual ☐ Flexible ☐ Manual | |
 | Other: _________________ | ____ days | ☐ Accrual ☐ Flexible ☐ Manual | |
 
+---
+
+#### 🎓 Quick Decision Guide
+
+| Question | Answer → Policy Type |
+|----------|------|
+| "Does leave automatically build up each month?" | ✅ **ACCRUAL** |
+| "Can employees take as much as they want (within reason)?" | ✅ **FLEXIBLE** |
+| "Do you manually decide how many days each person gets?" | ✅ **MANUAL** |
+| "Do you have a fixed number of days per year?" | ✅ **ACCRUAL** (most common) |
+| "Is approval based on judgment, not available balance?" | ✅ **FLEXIBLE** |
+
 ### 3.2 Leave Accrual Details
-**For leave types using ACCRUAL policy:**
+**For leave types using ACCRUAL policy:** (Skip this section if you use FLEXIBLE or MANUAL)
+
+#### 📌 Understanding Accrual Frequency
+
+**Monthly** (Most Common)
+- *How it works*: Leave is credited on a fixed day each month
+- *Example*: "Annual Leave: 15 days/year" → 1.25 days credited on the 1st of each month
+- *Calculation*: 15 days ÷ 12 months = 1.25 days/month
+
+**Quarterly**
+- *How it works*: Leave is credited 4 times per year
+- *Example*: "Annual Leave: 15 days/year" → 3.75 days credited every 3 months
+- *Calculation*: 15 days ÷ 4 quarters = 3.75 days/quarter
+
+**Annually**
+- *How it works*: All leave is credited once per year (usually Jan 1 or hire anniversary)
+- *Example*: "Annual Leave: 15 days/year" → All 15 days credited on Jan 1
+- *Calculation*: Full amount given at once (for mid-year hires, may need prorating)
+- *⚠️ Note*: Can be problematic for mid-year hires; consider monthly/quarterly instead
+
+---
+
 - **Accrual frequency**: ☐ Monthly ☐ Quarterly ☐ Annually
+
+#### 📌 Understanding Accrual Calculation
+
+**Fixed Days Per Period** (Most Common)
+- *How it works*: Same number of days credited each period, regardless of work hours
+- *Example 1*: "1.25 days/month" (for 15 days/year)
+- *Example 2*: "3.75 days/quarter" (for 15 days/year)
+- *Use case*: Standard annual leave, all employees earn same amount
+
+**Percentage Per Day Worked** (More Complex)
+- *How it works*: Leave accrues only on days employee actually works
+- *Example*: "0.5% of days worked/month" → Employee works 20 days = 0.1 days accrued
+- *Use case*: Part-time employees, irregular schedules, or flexible hour employees
+- *⚠️ Note*: Requires tracking working days; more administrative overhead
+
+---
+
 - **Accrual calculation basis**:
-  - ☐ Fixed days per period
-  - ☐ Percentage per day worked
+  - ☐ Fixed days per period (Example: 1.25 days/month for 15 days/year)
+  - ☐ Percentage per day worked (Example: 0.5% of working days)
   - ☐ Other: ________________________________
 
 ### 3.3 Leave Approval Workflow
