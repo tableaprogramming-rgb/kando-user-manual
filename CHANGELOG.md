@@ -2,7 +2,14 @@
 
 All notable changes to the Kando User Manual are documented in this file.
 
-## [Unreleased] - Recent Updates
+## [Unreleased] - Recent Updates (June 2026)
+
+### 🎓 Client Onboarding Training Resources
+- **CLIENT_ONBOARDING_QUESTIONNAIRE.md** - Comprehensive 10-section questionnaire for clients to complete before training, covering: organization basics, time tracking setup, work schedules, leave policies, payroll & compensation, organizational structure, shift policies, scheduling, integrations, and training preferences. Approximately 20-30 min completion time.
+- **USING_CLIENT_QUESTIONNAIRE_GUIDE.md** - Detailed trainer guide for interpreting questionnaire responses, section-by-section interpretation with red flags and preparation checklists, pre-training workflow, and escalation criteria. Helps trainers customize training sessions based on client setup.
+- **TRAINER_PRE_SESSION_CHECKLIST.md** - Practical 200+ item checklist covering questionnaire review, demo environment setup, presentation materials, participant preparation, technical readiness, testing scenarios, and post-training documentation. Ensures consistent trainer preparedness.
+
+**Purpose**: These resources enable trainers to understand client setup in advance, reducing training time and improving customization. Clients answer questionnaire 3+ days before training, trainers use it to prepare tailored demos and examples.
 
 ### 📝 Repository Documentation
 - **README Revision** (commit da12ee6) - Updated README with latest repository structure, clarified distinction between `manual/` (user docs) and `onboarding-strategy/` (dev planning), added CHANGELOG references, created quick-start guide for different user types
