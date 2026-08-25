@@ -1,0 +1,230 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a simple framework built on top of CSS
+ * modules, containing a limited set of general purpose styles that you might
+ * find useful for building Docusaurus sites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e5090;
+  --ifm-color-primary-dark: #1e3a66;
+  --ifm-color-primary-darker: #1a3151;
+  --ifm-color-primary-darkest: #0f1f31;
+  --ifm-color-primary-light: #3d63b4;
+  --ifm-color-primary-lighter: #4d73c4;
+  --ifm-color-primary-lightest: #6d8fd4;
+  --ifm-code-font-size: 95%;
+  --ifm-heading-color: #1a1a1a;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #5a9fd4;
+  --ifm-color-primary-dark: #4189c2;
+  --ifm-color-primary-darker: #3877b0;
+  --ifm-color-primary-darkest: #2d6398;
+  --ifm-color-primary-light: #7ab1dd;
+  --ifm-color-primary-lighter: #8abce3;
+  --ifm-color-primary-lightest: #9ac8ea;
+  --ifm-heading-color: #e0e0e0;
+}
+
+/* Kando branding colors */
+:root {
+  --kando-primary: #2e5090;
+  --kando-primary-dark: #1e3a66;
+  --kando-primary-light: #5a9fd4;
+  --kando-accent: #ff6b35;
+  --kando-success: #06d6a0;
+  --kando-warning: #ffd166;
+  --kando-danger: #ef476f;
+  --kando-info: #118ab2;
+}
+
+/* Custom styling for Kando documentation */
+.navbar {
+  background: linear-gradient(135deg, var(--kando-primary) 0%, var(--kando-primary-dark) 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background: linear-gradient(135deg, var(--kando-primary-dark) 0%, var(--kando-primary) 100%);
+}
+
+.docusaurus-mt-lg {
+  margin-top: 2rem;
+}
+
+/* Sidebar styling */
+.sidebar {
+  background-color: var(--ifm-background-color);
+}
+
+.sidebar-item {
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+
+.sidebar-item-link {
+  border-left: 3px solid transparent;
+  padding-left: calc(var(--ifm-spacing-horizontal) - 3px);
+  transition: all 0.2s ease;
+}
+
+.sidebar-item-link:hover {
+  border-left-color: var(--ifm-color-primary);
+  background-color: rgba(46, 80, 144, 0.1);
+}
+
+.sidebar-item-link--active {
+  border-left-color: var(--ifm-color-primary);
+  background-color: rgba(46, 80, 144, 0.1);
+  font-weight: 600;
+}
+
+/* Card styling */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Code block styling */
+.docusaurus-highlight {
+  background-color: rgba(46, 80, 144, 0.05);
+}
+
+html[data-theme='dark'] .docusaurus-highlight {
+  background-color: rgba(90, 159, 212, 0.1);
+}
+
+/* Alert styling */
+.alert {
+  border-radius: 6px;
+}
+
+.alert--info {
+  background-color: rgba(17, 138, 178, 0.1);
+  border-left: 4px solid var(--kando-info);
+}
+
+.alert--success {
+  background-color: rgba(6, 214, 160, 0.1);
+  border-left: 4px solid var(--kando-success);
+}
+
+.alert--warning {
+  background-color: rgba(255, 209, 102, 0.1);
+  border-left: 4px solid var(--kando-warning);
+}
+
+.alert--danger {
+  background-color: rgba(239, 71, 111, 0.1);
+  border-left: 4px solid var(--kando-danger);
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+thead {
+  background-color: rgba(46, 80, 144, 0.1);
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--ifm-hr-background-color);
+}
+
+tr:hover {
+  background-color: rgba(46, 80, 144, 0.05);
+}
+
+/* Breadcrumb styling */
+.breadcrumbs {
+  margin-bottom: 1.5rem;
+}
+
+.breadcrumbs__item--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* Docusaurus breadcrumb items */
+.breadcrumbs__link {
+  color: var(--ifm-link-color);
+}
+
+.breadcrumbs__link:hover {
+  color: var(--ifm-link-hover-color);
+  text-decoration: underline;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h1:first-child {
+  margin-top: 0;
+}
+
+/* Links */
+a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+}
+
+html[data-theme='dark'] a {
+  color: var(--ifm-color-primary-light);
+}
+
+html[data-theme='dark'] a:hover {
+  color: var(--ifm-color-primary-lighter);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem 0;
+  }
+
+  .table-of-contents {
+    display: none;
+  }
+}
+
+/* Print styles */
+@media print {
+  .navbar,
+  .footer,
+  .pagination-nav {
+    display: none;
+  }
+
+  .docusaurus-mt-lg {
+    margin-top: 1rem;
+  }
+}
