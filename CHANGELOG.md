@@ -4,6 +4,11 @@ All notable changes to the Kando User Manual are documented in this file.
 
 ## [Unreleased] - Recent Updates (August 2026)
 
+### 🐛 Fixed Vercel 404 Deployment
+- **Root Cause**: The root `.gitignore` excluded `docusaurus/package-lock.json`, so it was never committed. Vercel's `vercel.json` uses `installCommand: "npm ci"`, and `npm ci` fails with `EUSAGE` when no lock file is present. The failed install produced no `build/` output, so the site returned 404 (the earlier `routeBasePath: '/'` fix was correct but never reached because the build never ran).
+- **Fix**: Un-ignored and committed `docusaurus/package-lock.json`. Verified the full Vercel pipeline locally (`npm ci` → `npm run build` → `build/index.html` generated at root).
+- **Commit**: `cf9205e`
+
 ### 🚀 Docusaurus Migration Complete - Single Source of Truth
 - **Docusaurus Setup**: Created complete documentation portal with Kando branding, sidebar navigation, and dark mode support
 - **Content Migration**: Copied all 27 markdown files from `manual/` to `docusaurus/docs/` with reorganized structure
