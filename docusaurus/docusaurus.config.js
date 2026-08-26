@@ -40,6 +40,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          // Serve docs from the site root so intro.md (slug: /) becomes the
+          // homepage at "/" instead of "/docs/". Without this, no build/index.html
+          // is generated and the root URL returns 404 on Vercel.
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -98,15 +102,15 @@ const config = {
             items: [
               {
                 label: 'User Manual',
-                to: '/docs/user-manual/getting-started/introduction',
+                to: '/user-manual/getting-started/introduction',
               },
               {
                 label: 'Implementation Guides',
-                to: '/docs/guides/documentation-guide',
+                to: '/guides/documentation-guide',
               },
               {
                 label: 'QA Analysis',
-                to: '/docs/reference/qa-branch-analysis',
+                to: '/reference/qa-branch-analysis',
               },
             ],
           },
