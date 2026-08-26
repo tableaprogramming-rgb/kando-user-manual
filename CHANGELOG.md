@@ -2,9 +2,32 @@
 
 All notable changes to the Kando User Manual are documented in this file.
 
-## [Unreleased] - Recent Updates (June 2026)
+## [Unreleased] - Recent Updates (August 2026)
 
-### 📊 Onboarding Strategy Audit & Implementation Updates
+### 🚀 Docusaurus Migration Complete - Single Source of Truth
+- **Docusaurus Setup**: Created complete documentation portal with Kando branding, sidebar navigation, and dark mode support
+- **Content Migration**: Copied all 27 markdown files from `manual/` to `docusaurus/docs/` with reorganized structure
+- **File Reorganization**: Removed number prefixes from markdown files for cleaner URLs (e.g., `2.1-Time-Tracking.md` → `time-tracking.md`)
+- **Navigation Structure**: Implemented 3-sidebar system (manualSidebar, guidesSidebar, referenceSidebar) with comprehensive hierarchy
+- **Removed Legacy Folders**: Deleted `manual/` and `onboarding-strategy/` - Docusaurus is now single source of truth
+- **MDX Fixes**: Resolved JSX parsing issues by escaping angle brackets (`&lt;` → `&amp;lt;`) in 3 files (policy-configuration.md, approving-requests.md, reports.md)
+- **Vercel Ready**: Configuration complete for auto-deployment on git push
+
+**Migration Details**:
+- Source: `/manual/` (27 files) + `/onboarding-strategy/` (15+ files)
+- Destination: `/docusaurus/docs/` with new folder structure
+- User-Facing Docs: `/docusaurus/docs/user-manual/` (7 sections, 27 pages)
+- Dev Guides: `/docusaurus/docs/guides/` and `/docusaurus/docs/reference/`
+- Deployment: Ready for Vercel (`https://kando-documentation.vercel.app`)
+
+**Why This Change**:
+- Unified documentation portal (vs. split between Azure Wiki and Docusaurus)
+- Better UX with professional Kando branding and theme
+- Faster deployment with global CDN via Vercel
+- Easier content management with single source of truth
+- Public-facing documentation with auto-deploy on git push
+
+## Previous Update - Onboarding Strategy Audit & Implementation Updates
 - **ONBOARDING_STRATEGY_AUDIT.md** - Comprehensive gap analysis comparing original onboarding strategy documentation to actual Kando source code implementation. Identifies 15+ gaps: missing welcome modals, no setup checklists, no guided tours, no wizards, missing bulk operations. Includes validation checklist and prioritized findings for Owner, HR Admin, Employee, and Manager roles.
 - **Owner Onboarding Strategy (Revised)** - Completely rewritten based on source code audit. Documents actual 3-phase signup flow (OrgSetup.vue → AccountSetup.vue → VerifyView.vue), post-signup features (ProfileView.vue, OrganizationView.vue, SubscriptionList.vue, BillingView.vue). Identified gaps: no welcome modal, no setup checklist, no guided tour. Updated timeline to realistic 20 minutes vs original 15-minute goal.
 - **HR Admin Onboarding Strategy (Revised)** - Completely rewritten with actual implementation. Documents 7-step configuration sequence: Cost Centers → Leave Policies → Pay Periods → Add Employees → Shift Policies → Approval Workflows → Access Groups. Documented InviteEmployeeModal.vue 4-step employee creation form. Identified gaps: no setup wizard, no bulk CSV import, no policy templates. Added common pitfalls table and success metrics.

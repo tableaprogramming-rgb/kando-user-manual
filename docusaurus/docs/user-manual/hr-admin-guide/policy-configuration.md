@@ -36,7 +36,7 @@ Sick Leave Policy:
 ├─ Allocation: 10 days per year
 ├─ Accrual: None (per government)
 ├─ Minimum Notice: Same day OK
-├─ Approval Level: Manager (auto-approve if <1 day)
+├─ Approval Level: Manager (auto-approve if &lt;1 day)
 ├─ Documentation: Medical cert if >2 days
 ├─ Carryover: None
 └─ Max Per Request: 15 days
@@ -53,7 +53,7 @@ Sick Leave Policy:
    - **Minimum Days Notice**: e.g., 14 days for vacation
    - **Same-Day OK**: For sick leave
 5. Set approval workflow:
-   - **Auto-Approve**: For sick leave <1 day
+   - **Auto-Approve**: For sick leave &lt;1 day
    - **Manager Approval**: For most requests
    - **HR Approval**: For exceptions
 6. Set carryover rules:

@@ -1060,7 +1060,7 @@ February 2026 - Approval Summary:
 **Monitor Your Approval Patterns**:
 
 **Response Time**:
-- Average: Should be <24 hours
+- Average: Should be &lt;24 hours
 - Goal: 18-20 hours average
 - Track: Helps identify bottlenecks
 

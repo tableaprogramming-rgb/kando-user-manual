@@ -309,7 +309,7 @@ Generate Report:
 1. Generate **Attendance Report** for Feb 1-28
 2. Review each employee:
    - Attendance rate (target: ≥95%)
-   - Late arrivals (acceptable: <1 per month)
+   - Late arrivals (acceptable: &lt;1 per month)
    - Absences (concerning if >1 unscheduled)
 3. Identify issues:
    - Chronic absentees: >2 absences/month
@@ -386,7 +386,7 @@ Generate Report:
 
 - **Absence Rate**: Unscheduled absences
   - Formula: Unscheduled Absences / Days Scheduled × 100
-  - Target: <5%
+  - Target: &lt;5%
   - Benchmark: Industry avg. 3-5%
 
 **Performance Metrics**:
@@ -398,7 +398,7 @@ Generate Report:
 
 - **Error Rate**: Quality issues
   - Formula: Errors / Total Tasks × 100
-  - Target: <3%
+  - Target: &lt;3%
   - Benchmark: Varies by role
 
 **Payroll Metrics**:
@@ -410,7 +410,7 @@ Generate Report:
 
 - **Overtime Rate**: Percentage of hours worked beyond standard
   - Formula: Overtime Hours / Total Hours × 100
-  - Target: <10%
+  - Target: &lt;10%
   - Benchmark: Industry avg. 5-15%
 
 ### Identifying Trends

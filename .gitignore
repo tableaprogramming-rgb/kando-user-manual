@@ -1,0 +1,32 @@
+# Docusaurus build artifacts
+docusaurus/.docusaurus/
+docusaurus/build/
+docusaurus/node_modules/
+docusaurus/package-lock.json
+docusaurus/yarn.lock
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db

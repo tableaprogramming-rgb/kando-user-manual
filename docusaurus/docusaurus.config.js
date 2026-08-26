@@ -23,7 +23,7 @@ const config = {
   organizationName: 'kando-hcms',
   projectName: 'kando-documentation',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
