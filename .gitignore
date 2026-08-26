@@ -1,10 +1,10 @@
 # Docusaurus build artifacts
-docusaurus/.docusaurus/
-docusaurus/build/
-docusaurus/node_modules/
+.docusaurus/
+build/
+node_modules/
 # NOTE: package-lock.json MUST be committed. Vercel's install step runs
 # `npm ci`, which fails without a committed lock file (causing a 404 deploy).
-docusaurus/yarn.lock
+yarn.lock
 
 # macOS
 .DS_Store

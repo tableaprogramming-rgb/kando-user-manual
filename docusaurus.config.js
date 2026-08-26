@@ -47,7 +47,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/kando-hcms/kando-user-manual/tree/main/docusaurus/docs/',
+          editUrl: 'https://github.com/tableaprogramming-rgb/kando-user-manual/tree/main/docs/',
         },
         blog: false, // Disable blog for now
         theme: {
