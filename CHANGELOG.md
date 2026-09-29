@@ -4,6 +4,15 @@ All notable changes to the Kando User Manual are documented in this file.
 
 ## [Unreleased] - Recent Updates (September 2026)
 
+### 📝 Employee Licensing & "Unlicensed" Tag Documented
+- **Pages**: `owner-guide/subscription-management.md`, `hr-admin-guide/payroll-management.md`, `hr-admin-guide/system-setup.md`
+- **Verified against source**: `kando-backend` (`EmployeeController` licensed/unlicensed counts via `user.activeSeat`), `kando-frontend` (`values.ts`, `timesheet.ts`, `pay-sheet.ts` i18n, `seatHasLicenseTo()` in `stores/auth.ts`, tag usage across `OrganizationalChart.vue`, `KioskAssigneesPanel.vue`, `PolicyForm.vue`, `EmployeeTable.vue`, `EmployeeList.vue` (x2), `EmployeesList.vue`, paysheet/timesheet detail views)
+- **Added**: "The Unlicensed Tag" section in Subscription Management explaining what it means, where it appears, and how it blocks Timesheet/Paysheet creation, with exact toast copy
+- **Added**: Pre-flight warning + troubleshooting entry in Payroll Management for the "employees without Payroll Module seat" block
+- **Added**: "Employee Licensing & Seats" section + checklist item + troubleshooting entry in System Setup
+- **Corrected vs. the original analysis**: blocking triggers on Timesheet/Paysheet *creation* (client-side check), not at a "Finalize" click as originally assumed; also appears on the Scheduling employee table, not just the originally-listed 7 locations; "My Team" has a dedicated Licensed/Unlicensed filter tab with live counts
+- **Source**: Item H3 in `QA_BRANCH_DOCUMENTATION_ANALYSIS.md`
+
 ### 🔗 Full Internal Link Audit & Fix
 - **Scope**: Audited all 115 internal links across 35 markdown files in `docs/` (script-based, resolves each relative/absolute link against the filesystem/route structure)
 - **Root cause**: The Docusaurus migration (August 2026) renamed files/folders (e.g. `2-Employee-Guide/2.1-Time-Tracking.md` → `employee-guide/time-tracking.md`) and moved doc serving to site root, but internal cross-reference links were never updated to match

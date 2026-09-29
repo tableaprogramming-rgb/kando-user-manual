@@ -33,6 +33,7 @@ Before employees can work, verify all items are configured:
 - [ ] Department/team assignments done
 - [ ] Access groups configured
 - [ ] Reporting hierarchy defined
+- [ ] Module seats (Timekeeping, Payroll, etc.) assigned to all active employees
 
 ### Leave Configuration
 - [ ] Leave types created (Vacation, Sick, Personal, etc.)
@@ -313,6 +314,20 @@ Departments:
 2. Set **Cost Center** field
 3. Save changes
 
+### 7. Employee Licensing & Seats
+
+Kando features are sold per-employee as **module seats** (Timekeeping, Payroll, etc.). An employee needs a seat for a module before they can use it or be included in that module's processing.
+
+**The "Unlicensed" tag**: If an employee doesn't have an active seat for a module, they show a red **Unlicensed** tag wherever their name appears — employee lists, the organizational chart, kiosk assignment, shift policies, schedules, and payroll/timekeeping period lists.
+
+**Impact on processing**:
+- A **Timesheet** can't be generated for a period that includes unlicensed employees (*"There are employees without Timekeeping Module seat..."*)
+- A **Paysheet** can't be created for a pay group that includes unlicensed employees (*"There are employees without Payroll Module seat..."*)
+
+**Solution**: Assign the missing seat via **Settings → Organization → Subscriptions**, or remove the employee from the period/pay group. See [Subscription Management](../owner-guide/subscription-management.md#the-unlicensed-tag) for the full seat-assignment steps.
+
+**Tip**: Check **People → My Team**'s **Licensed / Unlicensed** filter tab regularly, especially after onboarding new hires, so seats get assigned before anyone hits a blocked period or payroll run.
+
 ## Common Configuration Scenarios
 
 ### Scenario 1: New Organization Setup
@@ -446,6 +461,14 @@ Departments:
 3. Verify overtime multiplier is set
 4. Test with sample timesheet
 
+**Problem**: "Employee shows 'Unlicensed' tag / can't be included in a period or pay group"
+**Cause**: The employee doesn't have an active seat for that module (Timekeeping or Payroll)
+**Solution**:
+1. Go to **Settings → Organization → Subscriptions**
+2. Find an unassigned seat for the module they need
+3. Assign it to the employee (or purchase more seats if none are available)
+4. Alternatively, remove the employee from the period/pay group if they don't need that module
+
 ## Related Pages
 
 - [Introduction](../getting-started/introduction.md#who-uses-kando) – HR Admin permissions
@@ -453,5 +476,5 @@ Departments:
 
 ---
 
-**Last Updated**: 2026-02-18
+**Last Updated**: 2026-09-29
 **For Questions**: support@kando.com

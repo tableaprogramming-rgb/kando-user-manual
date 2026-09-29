@@ -173,6 +173,8 @@ NET PAY:                   PHP 26,250 ← Amount deposited
 
 **STEP 2: Generate Payroll (Day 1-2)**
 
+**⚠️ Before you begin**: Every employee in the pay group needs an active **Payroll** module seat. If anyone is missing one, they'll show a red **Unlicensed** tag and Kando blocks paysheet creation with: *"There are employees without Payroll Module seat. Remove them from the Pay Group or assign a seat."* Assign missing seats from **Settings → Organization → Subscriptions** (see [Subscription Management](../owner-guide/subscription-management.md#the-unlicensed-tag)) before continuing, or remove the employee from the pay group.
+
 1. Go to **Payroll** → **Process Payroll**
 2. Select pay period:
    - Date range: [Feb 1-29, 2026]
@@ -571,6 +573,15 @@ Performance Bonus - Feb 2026
 4. Try again after brief wait
 5. Contact support with error message
 
+**Problem**: "There are employees without Payroll Module seat" (can't create paysheet)
+**Cause**: One or more employees in the pay group show a red **Unlicensed** tag — they don't have an active Payroll seat
+**Solution**:
+1. Note which employees show the **Unlicensed** tag in the pay group list
+2. Go to **Settings → Organization → Subscriptions**
+3. Assign each unlicensed employee an available Payroll seat (or purchase more if none are unassigned)
+4. Alternatively, remove the unlicensed employee from the pay group if they shouldn't be paid through it
+5. Retry paysheet creation
+
 ## Advanced Payroll Topics
 
 ### Multi-Currency Payroll
@@ -899,5 +910,5 @@ Termination Date: Feb 25
 
 ---
 
-**Last Updated**: 2026-02-18
+**Last Updated**: 2026-09-29
 **For Questions**: support@kando.com or payroll@kando.com

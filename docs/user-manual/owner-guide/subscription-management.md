@@ -42,6 +42,24 @@ Each seat has a status:
 - **Active** - Employee can use the module
 - **Inactive** - Employee cannot use the module (expired seat)
 
+### The "Unlicensed" Tag
+
+If an employee doesn't have an active seat for a module, Kando marks them with a red **Unlicensed** tag everywhere their name appears — employee lists, the organizational chart, kiosk assignment, shift policies, schedules, and payroll/timekeeping period lists.
+
+**What it blocks:**
+- HR Admins can't generate or save a **Timesheet** for a period that includes unlicensed employees
+- HR Admins can't create a **Paysheet** for a pay group that includes unlicensed employees
+
+If someone tries anyway, they'll see one of these messages:
+- *"There are employees without Timekeeping Module seat. Remove them from the Period Policy or assign a seat."*
+- *"There are employees without Payroll Module seat. Remove them from the Pay Group or assign a seat."*
+
+**To resolve it**, either:
+1. Assign the employee an available seat for that module (see [Assigning a Seat to an Employee](#assigning-a-seat-to-an-employee) below), or
+2. Remove the employee from that period/pay group if they shouldn't be included
+
+**Tip**: **People → My Team** has a **Licensed / Unlicensed** filter tab with live counts, so you can spot unlicensed employees before they block anything.
+
 ## Accessing Subscription Management
 
 1. Click **Settings** in the main menu
@@ -337,5 +355,5 @@ The subscription management page includes useful statistics:
 
 ---
 
-**Last Updated**: 2026-02-12
+**Last Updated**: 2026-09-29
 **For Questions**: support@kando.com
