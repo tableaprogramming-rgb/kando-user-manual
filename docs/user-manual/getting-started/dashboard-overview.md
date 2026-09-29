@@ -29,6 +29,8 @@ Access all features from the menu:
 - **Pay** - Payroll and payslips
 - **Settings** - Your preferences
 
+**On narrow screens**: If your browser window is narrow (or you're on a smaller laptop screen), the menu automatically shrinks to icons only to save space. Click the arrow icon at the bottom of the menu to expand it back to full width, or click it again to collapse it manually anytime.
+
 ### Main Content: Your Information
 
 **Today's Information**:
@@ -247,5 +249,5 @@ Now that you know your dashboard:
 
 ---
 
-**Last Updated**: 2026-02-12
+**Last Updated**: 2026-09-29
 **For Questions**: support@kando.com

@@ -4,6 +4,14 @@ All notable changes to the Kando User Manual are documented in this file.
 
 ## [Unreleased] - Recent Updates (September 2026)
 
+### 🖱️ Sidebar Auto-Collapse Documented (QA item M1)
+- **Page**: `getting-started/dashboard-overview.md` (Navigation section)
+- **Verified against source**: `kando-frontend` `AppMenu.vue`
+- **Corrected vs. the original analysis**: the sidebar doesn't turn into a hamburger-icon menu below 720px as assumed — it auto-shrinks to an **88px icon-only rail** (`MENU_COLLAPSE_BREAKPOINT = 720`), with a **double-chevron** toggle button, not a hamburger (☰)
+- **M2 (new KSelect dropdown)**: confirmed purely visual, no doc change needed
+- **M3 (Kiosk PIN encryption)**: verified `PutEmployeePinRequest` — PIN validation is still just `required, max:6`, no length/complexity change, so no user-visible policy change to document. The encryption itself is backend-only (`EncryptExistingKioskPins`), same category as M4–M6 which stay out of `manual/`
+- **Source**: Items M1–M3 in `QA_BRANCH_DOCUMENTATION_ANALYSIS.md`
+
 ### 🔒 Cross-Organization Data Scope Documented (QA item H2)
 - **Pages**: `hr-admin-guide/payroll-management.md`, `manager-guide/reports.md`
 - **Verified against source**: `kando-backend` `CompensationPolicy` and `ComplianceRecordHeaderPolicy` — confirmed exactly as the original analysis described: **401 Access Denied** if the user lacks the permission entirely, **404 Not Found** if the permission exists but the record belongs to a different organization
