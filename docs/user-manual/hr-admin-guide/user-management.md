@@ -360,10 +360,10 @@ Examples:
 
 ## Related Pages
 
-- [System Setup](4.1-System-Setup.md) – Cost center configuration
-- [Understanding Your Role](../1-Getting-Started/1.5-Understanding-Your-Role.md) – Hierarchy and access
-- [Team Management](../3-Manager-Guide/3.1-Team-Management.md) – Manager view of team
-- [Scheduling Guide](../3-Manager-Guide/3.3-Scheduling.md) – Advanced scheduling
+- [System Setup](system-setup.md) – Cost center configuration
+- [Introduction](../getting-started/introduction.md#who-uses-kando) – Roles, hierarchy, and access
+- [Team Management](../manager-guide/team-management.md) – Manager view of team
+- [Scheduling Guide](../manager-guide/scheduling.md) – Advanced scheduling
 
 ---
 

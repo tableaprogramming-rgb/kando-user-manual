@@ -222,10 +222,10 @@ Flexible: Core hours + flex time windows
 
 ## Related Pages
 
-- [System Setup](4.1-System-Setup.md) – Initial configuration
-- [Leave Management](../2-Employee-Guide/2.2-Leave-Management.md) – Employee perspective
-- [Approving Requests](../3-Manager-Guide/3.2-Approving-Requests.md) – Manager workflows
-- [Payroll Management](4.4-Payroll-Management.md) – Payroll policies
+- [System Setup](system-setup.md) – Initial configuration
+- [Leave Management](../employee-guide/leave-management.md) – Employee perspective
+- [Approving Requests](../manager-guide/approving-requests.md) – Manager workflows
+- [Payroll Management](payroll-management.md) – Payroll policies
 
 ---
 

@@ -158,7 +158,7 @@ Can't find something? Use the search bar:
 - **Ctrl+L** - Go to Leave management
 - **Ctrl+Q** - Quick Clock In/Out
 
-See [Keyboard Shortcuts](../7-Reference/7.2-Keyboard-Shortcuts.md) for more.
+See [Keyboard Shortcuts](../reference/keyboard-shortcuts.md) for more.
 
 ### Notifications
 **Bell Icon** (top-right):
@@ -240,10 +240,10 @@ Shows:
 
 Now that you know your dashboard:
 
-- 👤 **Ready to clock in?** → [Time Tracking](../2-Employee-Guide/2.1-Time-Tracking.md)
-- 📅 **Need to request leave?** → [Leave Management](../2-Employee-Guide/2.2-Leave-Management.md)
-- 📊 **Manager ready to approve?** → [Team Management](../3-Manager-Guide/3.1-Team-Management.md)
-- ❓ **Have questions?** → [FAQ](../7-Reference/7.3-FAQ.md)
+- 👤 **Ready to clock in?** → [Time Tracking](../employee-guide/time-tracking.md)
+- 📅 **Need to request leave?** → [Leave Management](../employee-guide/leave-management.md)
+- 📊 **Manager ready to approve?** → [Team Management](../manager-guide/team-management.md)
+- ❓ **Have questions?** → [FAQ](../reference/faq.md)
 
 ---
 

@@ -32,7 +32,7 @@ Try these general troubleshooting steps:
 ## Getting Help
 
 If the above doesn't solve it:
-- Check [FAQ](../7-Reference/7.3-FAQ.md)
+- Check [FAQ](../reference/faq.md)
 - Contact: support@kando.com
 - Or speak with your HR team
 

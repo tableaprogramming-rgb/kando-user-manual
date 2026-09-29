@@ -16,19 +16,19 @@ This documentation portal provides everything you need to use Kando effectively.
 
 **👤 I'm an Employee**
 - Learn how to track time, request leave, and view your schedule
-- [→ Employee Guide](/docs/user-manual/employee-guide/time-tracking)
+- [→ Employee Guide](/user-manual/employee-guide/time-tracking)
 
 **👨‍💼 I'm a Manager**
 - Manage your team, approve requests, create schedules
-- [→ Manager Guide](/docs/user-manual/manager-guide/team-management)
+- [→ Manager Guide](/user-manual/manager-guide/team-management)
 
 **💳 I'm an Organization Owner**
 - Manage your organization and subscription
-- [→ Owner Guide](/docs/user-manual/owner-guide/organization-profile)
+- [→ Owner Guide](/user-manual/owner-guide/organization-profile)
 
 **👨‍💻 I'm an HR Administrator**
 - Set up and configure the system for your organization
-- [→ HR Admin Guide](/docs/user-manual/hr-admin-guide/system-setup)
+- [→ HR Admin Guide](/user-manual/hr-admin-guide/system-setup)
 
 ## 📚 Documentation Sections
 
@@ -68,15 +68,15 @@ Use the search bar at the top to find answers to your questions. You can search 
 ## 🎓 Learning Paths
 
 ### First-Time Users
-1. [Introduction](/docs/user-manual/getting-started/introduction) — Overview of Kando
-2. [Login & Setup](/docs/user-manual/getting-started/login-setup) — How to access Kando
-3. [Dashboard Overview](/docs/user-manual/getting-started/dashboard-overview) — Navigation basics
+1. [Introduction](/user-manual/getting-started/introduction) — Overview of Kando
+2. [Login & Setup](/user-manual/getting-started/login-setup) — How to access Kando
+3. [Dashboard Overview](/user-manual/getting-started/dashboard-overview) — Navigation basics
 
 ### Common Tasks
-- **Submit a leave request** — [Leave Management](/docs/user-manual/employee-guide/leave-management)
-- **Clock in/out** — [Time Tracking](/docs/user-manual/employee-guide/time-tracking)
-- **View my payslip** — [Payslip & Compensation](/docs/user-manual/employee-guide/payslip-compensation)
-- **Approve team requests** — [Approving Requests](/docs/user-manual/manager-guide/approving-requests)
+- **Submit a leave request** — [Leave Management](/user-manual/employee-guide/leave-management)
+- **Clock in/out** — [Time Tracking](/user-manual/employee-guide/time-tracking)
+- **View my payslip** — [Payslip & Compensation](/user-manual/employee-guide/payslip-compensation)
+- **Approve team requests** — [Approving Requests](/user-manual/manager-guide/approving-requests)
 
 ## 📊 What is Kando?
 
@@ -99,19 +99,19 @@ Kando is a powerful HCMS that helps organizations manage:
 - Real-time timelog sync
 - Improved cross-organization security
 
-[See full changelog](/docs/reference/changelog)
+[See full changelog](/reference/changelog)
 
 ---
 
 ## 🚀 Get Started Now
 
-**New to Kando?** Start with the [Getting Started](/docs/user-manual/getting-started/introduction) section.
+**New to Kando?** Start with the [Getting Started](/user-manual/getting-started/introduction) section.
 
 **Know your role?** Jump straight to your guide:
-- 👤 [Employee Guide](/docs/user-manual/employee-guide/time-tracking)
-- 👨‍💼 [Manager Guide](/docs/user-manual/manager-guide/team-management)
-- 💳 [Owner Guide](/docs/user-manual/owner-guide/organization-profile)
-- 👨‍💻 [HR Admin Guide](/docs/user-manual/hr-admin-guide/system-setup)
+- 👤 [Employee Guide](/user-manual/employee-guide/time-tracking)
+- 👨‍💼 [Manager Guide](/user-manual/manager-guide/team-management)
+- 💳 [Owner Guide](/user-manual/owner-guide/organization-profile)
+- 👨‍💻 [HR Admin Guide](/user-manual/hr-admin-guide/system-setup)
 
 ---
 

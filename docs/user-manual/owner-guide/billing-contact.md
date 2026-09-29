@@ -257,10 +257,10 @@ Kando Billing Team
 
 ## Related Pages
 
-- [Organization Profile](4.1-Organization-Profile.md) - Update logo and organization details
-- [Organization Settings](4.2-Organization-Settings.md) - Configure organization preferences
-- [Subscription Management](4.3-Subscription-Management.md) - Manage subscription seats
-- [Getting Help](../8-Reference/7.4-Getting-Help.md) - Contact support
+- [Organization Profile](organization-profile.md) - Update logo and organization details
+- [Organization Settings](organization-settings.md) - Configure organization preferences
+- [Subscription Management](subscription-management.md) - Manage subscription seats
+- [Getting Help](../reference/getting-help.md) - Contact support
 
 ---
 

@@ -894,10 +894,8 @@ Termination Date: Feb 25
 
 ## Related Pages
 
-- [System Setup](4.1-System-Setup.md) – Payroll configuration
-- [Payroll Process Workflow](../6-Workflows/5.3-Payroll-Process.md) – How payroll works
-- [Payslip & Compensation](../2-Employee-Guide/2.4-Payslip-Compensation.md) – Employee view
-- [Error Reference](../7-Troubleshooting/ERROR_REFERENCE.md) – Payroll errors
+- [System Setup](system-setup.md) – Payroll configuration
+- [Payslip & Compensation](../employee-guide/payslip-compensation.md) – Employee view
 
 ---
 

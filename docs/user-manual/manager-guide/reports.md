@@ -843,9 +843,9 @@ Manager: "Let's work together on this. Can we discuss scope,
 
 ## Related Pages
 
-- [Team Management](3.1-Team-Management.md) – Understand team operations data
-- [Scheduling](3.3-Scheduling.md) – Generate scheduling reports
-- [Payroll Information](../2-Employee-Guide/2.4-Payslip-Compensation.md) – Understand payroll data
+- [Team Management](team-management.md) – Understand team operations data
+- [Scheduling](scheduling.md) – Generate scheduling reports
+- [Payroll Information](../employee-guide/payslip-compensation.md) – Understand payroll data
 
 ---
 

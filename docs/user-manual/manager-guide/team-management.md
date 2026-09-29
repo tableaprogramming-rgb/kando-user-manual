@@ -734,12 +734,10 @@ After: Manager creates manual entry
 
 ## Related Pages
 
-- [Approving Requests](3.2-Approving-Requests.md) – Detailed request approval workflows
-- [Scheduling](3.3-Scheduling.md) – Advanced scheduling features and best practices
-- [Reports](3.4-Reports.md) – Generate team reports for analysis and planning
-- [Employee User Guide](../2-Employee-Guide/2.1-Time-Tracking.md) – Understand employee perspective on timekeeping
-- [Error Reference](../7-Troubleshooting/ERROR_REFERENCE.md) – Understand time tracking errors
-- [Time Tracking Guide](../2-Employee-Guide/2.1-Time-Tracking.md) – How employees track time
+- [Approving Requests](approving-requests.md) – Detailed request approval workflows
+- [Scheduling](scheduling.md) – Advanced scheduling features and best practices
+- [Reports](reports.md) – Generate team reports for analysis and planning
+- [Time Tracking Guide](../employee-guide/time-tracking.md) – How employees track time
 
 ---
 

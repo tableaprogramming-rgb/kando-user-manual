@@ -203,10 +203,10 @@ The process of routing requests (leave, overtime) to managers for approval.
 
 ✅ **Now that you understand Kando**, choose your next step:
 
-- 👤 **Employee?** → Read [Time Tracking Guide](../2-Employee-Guide/2.1-Time-Tracking.md)
-- 👨‍💼 **Manager?** → Read [Team Management Guide](../3-Manager-Guide/3.1-Team-Management.md)
-- 👨‍💻 **HR Admin?** → Read [System Setup Guide](../4-HR-Admin-Guide/4.1-System-Setup.md)
-- ❓ **Got questions?** → Check [FAQ](../7-Reference/7.3-FAQ.md)
+- 👤 **Employee?** → Read [Time Tracking Guide](../employee-guide/time-tracking.md)
+- 👨‍💼 **Manager?** → Read [Team Management Guide](../manager-guide/team-management.md)
+- 👨‍💻 **HR Admin?** → Read [System Setup Guide](../hr-admin-guide/system-setup.md)
+- ❓ **Got questions?** → Check [FAQ](../reference/faq.md)
 
 ## Getting Help
 
@@ -214,7 +214,7 @@ Can't find what you need?
 
 - **Search** the manual using the search box
 - **Browse** the table of contents on the left
-- **Check** the [Troubleshooting](../6-Troubleshooting/6.1-Login-Issues.md) section
+- **Check** the [Troubleshooting](../troubleshooting/login-issues.md) section
 - **Contact** support through the system or your HR team
 
 ---

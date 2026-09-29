@@ -448,9 +448,8 @@ Departments:
 
 ## Related Pages
 
-- [Understanding Your Role](../1-Getting-Started/1.5-Understanding-Your-Role.md) – HR Admin permissions
-- [System Setup Requirements](../1-Getting-Started/1.4-System-Setup-Requirements.md) – Full setup checklist
-- [Error Reference](../7-Troubleshooting/ERROR_REFERENCE.md) – Configuration errors
+- [Introduction](../getting-started/introduction.md#who-uses-kando) – HR Admin permissions
+- [System Requirements](../getting-started/introduction.md#system-requirements) – Full setup checklist
 
 ---
 

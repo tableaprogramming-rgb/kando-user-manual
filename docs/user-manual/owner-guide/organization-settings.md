@@ -268,9 +268,9 @@ Your current departments display in a list showing:
 
 ## Related Pages
 
-- [Organization Profile](4.1-Organization-Profile.md) - Manage organization name, logo, billing
-- [Subscription Management](4.3-Subscription-Management.md) - Manage user seats
-- [Billing Contact](4.4-Billing-Contact.md) - Update billing information
+- [Organization Profile](organization-profile.md) - Manage organization name, logo, billing
+- [Subscription Management](subscription-management.md) - Manage user seats
+- [Billing Contact](billing-contact.md) - Update billing information
 
 ---
 

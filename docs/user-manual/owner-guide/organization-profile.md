@@ -171,10 +171,10 @@ When you update the billing email:
 
 ## Related Pages
 
-- [Organization Settings](4.2-Organization-Settings.md) - Configure timezone, date formats, departments
-- [Subscription Management](4.3-Subscription-Management.md) - Manage subscription seats
-- [Billing Contact](4.4-Billing-Contact.md) - Billing and payment information
-- [Getting Help](../8-Reference/7.4-Getting-Help.md) - Support and contact information
+- [Organization Settings](organization-settings.md) - Configure timezone, date formats, departments
+- [Subscription Management](subscription-management.md) - Manage subscription seats
+- [Billing Contact](billing-contact.md) - Billing and payment information
+- [Getting Help](../reference/getting-help.md) - Support and contact information
 
 ---
 

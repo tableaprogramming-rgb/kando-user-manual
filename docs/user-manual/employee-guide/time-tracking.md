@@ -447,11 +447,10 @@ A: No, but manager can. Request changes from manager.
 
 ## Next Steps
 
-- 📅 [Request Leave](2.2-Leave-Management.md) - Time off requests
-- 📊 [View Schedule](2.3-View-Schedule.md) - See your shifts
-- 💰 [View Payslip](2.4-Payslip-Compensation.md) - Check your pay
-- 🔧 [Error Reference](../7-Troubleshooting/ERROR_REFERENCE.md) - Understand error messages
-- ❓ [Getting Help](../8-Reference/7.4-Getting-Help.md) - Support
+- 📅 [Request Leave](leave-management.md) - Time off requests
+- 📊 [View Schedule](view-schedule.md) - See your shifts
+- 💰 [View Payslip](payslip-compensation.md) - Check your pay
+- ❓ [Getting Help](../reference/getting-help.md) - Support
 
 ---
 

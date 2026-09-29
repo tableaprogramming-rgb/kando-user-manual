@@ -442,9 +442,9 @@ A: Approved leave takes precedence. Your manager will adjust schedule or sync le
 
 ## Related Pages
 
-- [Time Tracking Guide](2.1-Time-Tracking.md) – Log hours according to your schedule
-- [Leave Management](2.2-Leave-Management.md) – How leave affects your schedule
-- [Dashboard Overview](1.3-Dashboard-Overview.md) – See schedule widget on dashboard
+- [Time Tracking Guide](time-tracking.md) – Log hours according to your schedule
+- [Leave Management](leave-management.md) – How leave affects your schedule
+- [Dashboard Overview](../getting-started/dashboard-overview.md) – See schedule widget on dashboard
 
 ---
 

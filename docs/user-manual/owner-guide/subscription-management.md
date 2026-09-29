@@ -330,10 +330,10 @@ The subscription management page includes useful statistics:
 
 ## Related Pages
 
-- [Organization Profile](4.1-Organization-Profile.md) - Manage organization details
-- [Organization Settings](4.2-Organization-Settings.md) - Configure settings
-- [Billing Contact](4.4-Billing-Contact.md) - Update billing information
-- [Getting Help](../8-Reference/7.4-Getting-Help.md) - Contact support
+- [Organization Profile](organization-profile.md) - Manage organization details
+- [Organization Settings](organization-settings.md) - Configure settings
+- [Billing Contact](billing-contact.md) - Update billing information
+- [Getting Help](../reference/getting-help.md) - Contact support
 
 ---
 

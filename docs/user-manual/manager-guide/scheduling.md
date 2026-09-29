@@ -644,10 +644,10 @@ Mitigation**:
 
 ## Related Pages
 
-- [Team Management](3.1-Team-Management.md) – Manage your team roster
-- [Approving Requests](3.2-Approving-Requests.md) – Handle shift swap approvals
-- [Reports](3.4-Reports.md) – Generate scheduling and team reports
-- [Employee Schedule View](../2-Employee-Guide/2.3-View-Schedule.md) – Understand employee perspective
+- [Team Management](team-management.md) – Manage your team roster
+- [Approving Requests](approving-requests.md) – Handle shift swap approvals
+- [Reports](reports.md) – Generate scheduling and team reports
+- [Employee Schedule View](../employee-guide/view-schedule.md) – Understand employee perspective
 
 ---
 

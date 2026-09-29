@@ -4,6 +4,17 @@ All notable changes to the Kando User Manual are documented in this file.
 
 ## [Unreleased] - Recent Updates (September 2026)
 
+### 🔗 Full Internal Link Audit & Fix
+- **Scope**: Audited all 115 internal links across 35 markdown files in `docs/` (script-based, resolves each relative/absolute link against the filesystem/route structure)
+- **Root cause**: The Docusaurus migration (August 2026) renamed files/folders (e.g. `2-Employee-Guide/2.1-Time-Tracking.md` → `employee-guide/time-tracking.md`) and moved doc serving to site root, but internal cross-reference links were never updated to match
+- **Fixed ~90 broken links** across 20 files:
+  - `docs/intro.md` — stripped stale `/docs/` prefix from 17 absolute links (broken since the root-serving fix in `79c72b3`)
+  - "Related Pages"/"Next Steps" footers in `employee-guide/*.md`, `manager-guide/*.md`, `owner-guide/*.md`, `hr-admin-guide/*.md`, `troubleshooting/*.md`, `getting-started/*.md` — updated to current filenames/paths
+  - Removed 6 links to content that was never actually written (`ERROR_REFERENCE.md`, a "Payroll Process Workflow" page) rather than pointing at nonexistent pages
+  - Redirected 2 links ("Understanding Your Role", "System Setup Requirements") to the equivalent sections that already exist in `getting-started/introduction.md` (`#who-uses-kando`, `#system-requirements`)
+- **Left untouched (not bugs)**: placeholder link examples inside `docs/guides/documentation-guide.md` (a documentation-writing template) and literal `(link)` placeholders in the still-skeleton `user-manual/reference/*.md` pages awaiting Phase 2 content
+- **Verification**: Re-ran the audit script post-fix — 0 broken links remain among real content pages
+
 ### 📝 Password Reset Flow Verified & Documented
 - **Page**: `docs/user-manual/getting-started/login-setup.md`
 - **Verified against source**: `kando-backend` (`PasswordResetService`, `AuthController`, `config/auth.php`, email template), `kando-frontend` (`ForgotPassword.vue`, `ResetView.vue`, i18n copy), `kando_mobile_frontend` (identical i18n copy — same flow on mobile)

@@ -1597,10 +1597,9 @@ Red Flag 4: Urgent requests pattern
 
 ## Related Pages
 
-- [Team Management](3.1-Team-Management.md) – View team and daily operations
-- [Scheduling](3.3-Scheduling.md) – Create and manage team schedules
-- [Employee Leave Management](../2-Employee-Guide/2.2-Leave-Management.md) – Understand employee leave process
-- [Error Reference](../7-Troubleshooting/ERROR_REFERENCE.md) – Understand rejection and error messages
+- [Team Management](team-management.md) – View team and daily operations
+- [Scheduling](scheduling.md) – Create and manage team schedules
+- [Employee Leave Management](../employee-guide/leave-management.md) – Understand employee leave process
 
 ---
 

@@ -603,10 +603,9 @@ A: If you're healthy enough to work, you don't need to take sick leave. Work fro
 
 ## Related Pages
 
-- [Time Tracking Guide](2.1-Time-Tracking.md) – Understand how leave appears on your timesheet
-- [View Schedule](2.3-View-Schedule.md) – See your scheduled working hours
-- [Troubleshooting](../7-Troubleshooting/6.3-Request-Issues.md) – Common leave request problems
-- [Error Reference](../7-Troubleshooting/ERROR_REFERENCE.md) – Understand error messages
+- [Time Tracking Guide](time-tracking.md) – Understand how leave appears on your timesheet
+- [View Schedule](view-schedule.md) – See your scheduled working hours
+- [Troubleshooting](../troubleshooting/request-issues.md) – Common leave request problems
 
 ---
 

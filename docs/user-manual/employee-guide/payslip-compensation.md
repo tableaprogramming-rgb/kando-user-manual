@@ -819,11 +819,10 @@ Feb Payslip (After Raise):
 
 ## Related Pages
 
-- [Time Tracking Guide](2.1-Time-Tracking.md) – Understand how time affects compensation
-- [Leave Management](2.2-Leave-Management.md) – How leave affects pay
-- [Dashboard Overview](1.3-Dashboard-Overview.md) – View recent payslips on dashboard
-- [Error Reference](../7-Troubleshooting/ERROR_REFERENCE.md) – Understand payroll-related errors
-- [Troubleshooting - General Issues](../7-Troubleshooting/6.4-General-Issues.md) – Other system issues
+- [Time Tracking Guide](time-tracking.md) – Understand how time affects compensation
+- [Leave Management](leave-management.md) – How leave affects pay
+- [Dashboard Overview](../getting-started/dashboard-overview.md) – View recent payslips on dashboard
+- [Troubleshooting - General Issues](../troubleshooting/general-issues.md) – Other system issues
 
 ---
 
