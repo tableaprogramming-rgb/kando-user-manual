@@ -2,6 +2,17 @@
 
 All notable changes to the Kando User Manual are documented in this file.
 
+## [Unreleased] - Recent Updates (September 2026)
+
+### 📝 Password Reset Flow Verified & Documented
+- **Page**: `docs/user-manual/getting-started/login-setup.md`
+- **Verified against source**: `kando-backend` (`PasswordResetService`, `AuthController`, `config/auth.php`, email template), `kando-frontend` (`ForgotPassword.vue`, `ResetView.vue`, i18n copy), `kando_mobile_frontend` (identical i18n copy — same flow on mobile)
+- **Corrected**: Removed false claim that Kando enforces a minimum password length/complexity — it does not (backend and frontend only require the confirmation field to match). Reframed as a recommendation instead of a system requirement.
+- **Corrected**: "Forgot My Password" steps referenced a non-existent **Username** field — the form only accepts **Email Address**.
+- **Added**: Exact 60-minute reset link expiry (`AUTH_PASSWORD_RESET_TOKEN_EXPIRY`), exact on-screen copy for each step, expired-link recovery path, and a note that the flow is identical on mobile.
+- **Fixed**: Broken cross-reference links left over from the pre-Docusaurus folder structure (e.g. `../6-Troubleshooting/6.1-Login-Issues.md` → `../troubleshooting/login-issues.md`).
+- **Source**: Item C1 in `QA_BRANCH_DOCUMENTATION_ANALYSIS.md`
+
 ## [Unreleased] - Recent Updates (August 2026)
 
 ### 🐛 Fixed Vercel 404 Deployment

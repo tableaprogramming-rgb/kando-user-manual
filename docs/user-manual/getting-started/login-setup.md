@@ -29,12 +29,12 @@ You should see the **Kando Login Page**.
 On your first login, Kando will ask you to change your password.
 
 1. **Old Password**: Enter the temporary password
-2. **New Password**: Create a strong password:
+2. **New Password**: Kando doesn't enforce a minimum length or character mix, but for your own security we recommend:
    - At least 8 characters
    - Mix of uppercase and lowercase
    - Include numbers and symbols
    - Don't use your name or employee ID
-3. **Confirm Password**: Re-enter your new password
+3. **Confirm Password**: Re-enter your new password (must match exactly)
 4. Click **Update Password**
 
 **Remember your new password!** You'll need it every time you login.
@@ -161,15 +161,20 @@ You're now logged out. Close the browser window to be safe.
 ### "Account Locked"
 - Too many failed login attempts
 - Wait 15 minutes and try again, OR
-- Click "Forgot Password" to reset
+- Click **Forgot password?** to reset
 - Contact IT if still locked
 
 ### "I Forgot My Password"
-1. Click **Forgot Password** on the login page
-2. Enter your **Username**
-3. Check your **Email** for reset link (check spam folder)
-4. Click the link and **Create New Password**
-5. Login with your new password
+1. On the login page, click **Reset** next to "Forgot password?"
+2. Enter your **Email Address** (not your username) and click **Reset Password**
+3. You'll see a confirmation: *"Kindly check your email. We have sent you a reset password link on your registered email address."*
+4. Open the email and click **Reset Password**
+   - **The link expires in 60 minutes.** If it expires, you'll see a "Reset Link Expired" screen — click **Request Another Reset** to get a new one.
+   - If no email arrives, check your spam folder. If your email address isn't on file, you won't receive one — contact HR/IT to confirm it.
+5. On the **Set a New Password** page, enter and confirm your **New Password**, then submit
+6. You'll see: *"Your password has been successfully updated."* Login with your new password.
+
+*This same process works from the Kando mobile app.*
 
 ### "Browser Error / Won't Load"
 - Refresh the page (F5)
@@ -225,7 +230,7 @@ Kando works best on:
 
 Can't complete setup?
 
-- Check [Troubleshooting](../6-Troubleshooting/6.1-Login-Issues.md) section
+- Check [Troubleshooting](../troubleshooting/login-issues.md) section
 - Contact your IT department
 - Email: `support@kando.com`
 - Call: Your company's support line
@@ -234,11 +239,11 @@ Can't complete setup?
 
 ✅ **Setup complete!** Now:
 
-- 👤 **Employee?** → [Clock In for First Time](../2-Employee-Guide/2.1-Time-Tracking.md)
-- 👨‍💼 **Manager?** → [View Team Dashboard](../3-Manager-Guide/3.1-Team-Management.md)
-- ❓ **Got Questions?** → [Dashboard Overview](1.3-Dashboard-Overview.md)
+- 👤 **Employee?** → [Clock In for First Time](../employee-guide/time-tracking.md)
+- 👨‍💼 **Manager?** → [View Team Dashboard](../manager-guide/team-management.md)
+- ❓ **Got Questions?** → [Dashboard Overview](dashboard-overview.md)
 
 ---
 
-**Last Updated**: 2026-02-12
+**Last Updated**: 2026-09-29
 **For Questions**: support@kando.com
