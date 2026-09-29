@@ -37,6 +37,25 @@ Time tracking records when you work and how long you work. It helps:
 
 **Keyboard Shortcut**: Press `Ctrl+O` to clock out instantly
 
+**📱 Also on mobile**: Clock in/out works the same way in the Kando mobile app — see [Kando Mobile App](mobile-app.md).
+
+## Multi-Device Sync
+
+You can clock in on your phone and clock out on the web — or the other way around. Changes sync instantly between mobile and web, so both always show the same status.
+
+**Example**: Maria clocks in on mobile at 9:00 AM in the parking lot. By the time she sits down and opens Kando on her desktop, her status already shows "Clocked In" — no refresh needed.
+
+**Note**: This only works while both devices have an internet connection. If sync seems delayed, see [Troubleshooting](#troubleshooting) below.
+
+### Browser Timer Indicator
+
+While you're clocked in, your browser tab shows a colored dot on the Kando favicon so you can tell you're on the clock without switching tabs:
+
+- 🟢 **Green** – actively clocked in
+- 🟡 **Yellow** – on break
+
+The dot disappears when you clock out. This only appears in the web browser — the mobile app shows your timer directly in the app instead.
+
 ## Common Scenarios
 
 ### Forgot to Clock In
@@ -428,6 +447,12 @@ In Kando, a "**Period**" is typically:
 - Try refreshing page
 - Contact support
 
+### My Timer Shows Differently on Phone vs. Web
+- Timers sync in real time, but a brief network delay can happen
+- Check your internet connection on both devices
+- Wait a moment for sync to complete, then refresh if it still doesn't match
+- This is normal behavior — the system keeps both devices in sync automatically
+
 ## FAQ
 
 **Q: What if I'm sick?**
@@ -450,9 +475,10 @@ A: No, but manager can. Request changes from manager.
 - 📅 [Request Leave](leave-management.md) - Time off requests
 - 📊 [View Schedule](view-schedule.md) - See your shifts
 - 💰 [View Payslip](payslip-compensation.md) - Check your pay
+- 📱 [Kando Mobile App](mobile-app.md) - Clock in/out and more from your phone
 - ❓ [Getting Help](../reference/getting-help.md) - Support
 
 ---
 
-**Last Updated**: 2026-02-18
+**Last Updated**: 2026-09-29
 **For Questions**: support@kando.com

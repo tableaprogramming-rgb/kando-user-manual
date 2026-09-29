@@ -17,6 +17,8 @@ Payslip & Compensation allows you to:
 
 Your payslip is the official record of your compensation. It includes gross salary, allowances, deductions (tax, benefits, loans), and net pay. Payslips are typically available a few days after the pay period ends.
 
+**Note**: Payslips are only available on the web version of Kando — the mobile app doesn't support viewing payslips yet.
+
 ## Understanding Pay Components
 
 ### Earnings
@@ -826,6 +828,6 @@ Feb Payslip (After Raise):
 
 ---
 
-**Last Updated**: 2026-02-18
+**Last Updated**: 2026-09-29
 **Maintainer**: Payroll & Compensation
 **For Questions**: support@kando.com or payroll@kando.com

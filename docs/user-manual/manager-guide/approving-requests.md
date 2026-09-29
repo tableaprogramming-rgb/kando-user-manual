@@ -92,6 +92,21 @@ Each request shows:
 - **Impact**: Business or payroll impact
 - **Employee Status**: Leave balance, schedule impact, etc.
 
+## Approving Requests on Mobile
+
+You can review and approve requests from the Kando mobile app, not just web.
+
+**Accessing your approvals**:
+1. Open the Kando app and go to the **Requests** tab
+2. Tap **My Approvals** (only visible if you have approval authority)
+3. Tap any request to review its details, then **Approve** or **Reject**
+
+**What you'll see**: Requester name, request type, requested date, and date submitted. Open a request to see an **Approved By** section showing who's signed off so far, for requests needing multiple approvals.
+
+**Finding a specific request**: My Approvals has a search box (by employee name or request details). For filtering by date range or request type, use web — that level of filtering isn't available on mobile yet.
+
+**Note**: Approving on mobile doesn't send the employee a phone notification if you're not both online — they'll see the updated status the next time they open the app or web. See [Kando Mobile App](../employee-guide/mobile-app.md) for more.
+
 ## Types of Requests
 
 ### Leave Requests
@@ -1600,10 +1615,11 @@ Red Flag 4: Urgent requests pattern
 - [Team Management](team-management.md) – View team and daily operations
 - [Scheduling](scheduling.md) – Create and manage team schedules
 - [Employee Leave Management](../employee-guide/leave-management.md) – Understand employee leave process
+- [Kando Mobile App](../employee-guide/mobile-app.md) – Approve requests from your phone
 
 ---
 
-**Last Updated**: 2026-02-18
+**Last Updated**: 2026-09-29
 **Maintainer**: Approvals Operations
 **For Questions**: support@kando.com
 

@@ -4,6 +4,21 @@ All notable changes to the Kando User Manual are documented in this file.
 
 ## [Unreleased] - Recent Updates (September 2026)
 
+### 📱 Mobile App Documented (QA items C2 + H1)
+- **New page**: `employee-guide/mobile-app.md` (Option A: dedicated mobile hub, registered in `sidebars.js`) — install/login flow, all 5 request types (Leave, Overtime, Manual Timelog, Schedule, Holiday Swap), attachments, leave balance history, My Requests/My Approvals, real-time sync, mobile-specific troubleshooting
+- **Added**: "Multi-Device Sync" and "Browser Timer Indicator" sections to `time-tracking.md` (H1), including the favicon badge color meaning (green = clocked in, yellow = on break) — a detail the original analysis didn't capture
+- **Added**: "Approving Requests on Mobile" section to `manager-guide/approving-requests.md` (paired update)
+- **Added**: "Also on mobile" pointers in `leave-management.md`, `view-schedule.md`, and a "not available on mobile" note in `payslip-compensation.md`
+- **Verified against source**: `kando_mobile_frontend` (request field files, `requests.dart` tabs, `my_approvals.dart`, `pusher_service.dart`, `pubspec.yaml`, `login.arb`/`app_en.arb` l10n), `kando-frontend` (`favicon-badge.ts`, `App.vue` timer watcher)
+- **Corrected vs. the original analysis** — several claimed features don't exist in the actual mobile codebase:
+  - ❌ No "All Requests" tab — only My Requests / My Approvals (2 tabs)
+  - ❌ No approval filters (Date Submitted / Requested Date / Request Type) on mobile — only a search box
+  - ❌ No push notifications — no Firebase/FCM package in the app at all; updates are real-time only while the app is open
+  - ❌ No offline support — no offline/caching package present
+  - ✅ Resolved the "VERIFY" item: payslips are **not** available on mobile
+- **Chose Option A** (dedicated hub page) over Option B (inline subsections) per discussion — the hub centralizes install/login and mobile-specific troubleshooting rather than duplicating it across 4 pages
+- **Source**: Items C2 and H1 in `QA_BRANCH_DOCUMENTATION_ANALYSIS.md`
+
 ### 📝 Employee Licensing & "Unlicensed" Tag Documented
 - **Pages**: `owner-guide/subscription-management.md`, `hr-admin-guide/payroll-management.md`, `hr-admin-guide/system-setup.md`
 - **Verified against source**: `kando-backend` (`EmployeeController` licensed/unlicensed counts via `user.activeSeat`), `kando-frontend` (`values.ts`, `timesheet.ts`, `pay-sheet.ts` i18n, `seatHasLicenseTo()` in `stores/auth.ts`, tag usage across `OrganizationalChart.vue`, `KioskAssigneesPanel.vue`, `PolicyForm.vue`, `EmployeeTable.vue`, `EmployeeList.vue` (x2), `EmployeesList.vue`, paysheet/timesheet detail views)

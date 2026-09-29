@@ -33,6 +33,7 @@ const sidebars = {
         'user-manual/employee-guide/leave-management',
         'user-manual/employee-guide/view-schedule',
         'user-manual/employee-guide/payslip-compensation',
+        'user-manual/employee-guide/mobile-app',
       ],
     },
     {

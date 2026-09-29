@@ -270,6 +270,8 @@ Vacation Leave: 20 days
    - **Manager Notes**: Add any additional information
 4. Click **Submit Request**
 
+**📱 Also on mobile**: Submit leave requests, attach documents, and check your balance history from the Kando mobile app — see [Kando Mobile App](mobile-app.md).
+
 ### Step 3: Receive Approval
 
 1. Your manager will review your request
@@ -605,10 +607,11 @@ A: If you're healthy enough to work, you don't need to take sick leave. Work fro
 
 - [Time Tracking Guide](time-tracking.md) – Understand how leave appears on your timesheet
 - [View Schedule](view-schedule.md) – See your scheduled working hours
+- [Kando Mobile App](mobile-app.md) – Submit leave requests from your phone
 - [Troubleshooting](../troubleshooting/request-issues.md) – Common leave request problems
 
 ---
 
-**Last Updated**: 2026-02-18
+**Last Updated**: 2026-09-29
 **Maintainer**: HR Operations
 **For Questions**: support@kando.com

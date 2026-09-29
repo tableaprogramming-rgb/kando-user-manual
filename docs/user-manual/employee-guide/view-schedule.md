@@ -190,6 +190,8 @@ Location: Office, Building A
 
 **Important**: Both parties and manager must approve
 
+**📱 Also on mobile**: Submit schedule change requests and holiday swap requests from the Kando mobile app — see [Kando Mobile App](mobile-app.md).
+
 ### Update Personal Availability
 
 1. Navigate to **Settings** → **Schedule Preferences**
@@ -444,10 +446,11 @@ A: Approved leave takes precedence. Your manager will adjust schedule or sync le
 
 - [Time Tracking Guide](time-tracking.md) – Log hours according to your schedule
 - [Leave Management](leave-management.md) – How leave affects your schedule
+- [Kando Mobile App](mobile-app.md) – Submit schedule and holiday swap requests from your phone
 - [Dashboard Overview](../getting-started/dashboard-overview.md) – See schedule widget on dashboard
 
 ---
 
-**Last Updated**: 2026-02-12
+**Last Updated**: 2026-09-29
 **Maintainer**: Scheduling Operations
 **For Questions**: support@kando.com
