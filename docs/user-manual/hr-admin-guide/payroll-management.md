@@ -15,6 +15,12 @@ Payroll is the complete process of calculating employee compensation, deducting 
 - Maintaining compliance records
 - Archiving payroll data
 
+## Data Privacy & Organization Scope
+
+Kando keeps compensation and compliance records scoped to your own organization. As an HR/Payroll administrator, you can only view and manage compensation records — and compliance filings — for employees within your organization. This protects payroll privacy between separate organizations sharing the same Kando instance.
+
+If you ever need to access another organization's payroll or compliance data (for example, a shared-services arrangement), contact that organization's HR Admin directly. Kando won't display it to you even if you have the exact record ID.
+
 ## Payroll Processing Cycle
 
 ### Complete Monthly Payroll Timeline
@@ -572,6 +578,20 @@ Performance Bonus - Feb 2026
 3. Verify compensation data complete
 4. Try again after brief wait
 5. Contact support with error message
+
+**Problem**: "Access Denied" when opening a compensation record
+**Cause**: You don't have the required payroll permission, or the record belongs to a different organization
+**Solution**:
+1. Confirm you have `payroll.compensation` view/manage access — ask your Owner or HR Admin to check
+2. Confirm the employee is actually in your organization
+3. If you believe you should have access, contact your Owner to review your permissions
+
+**Problem**: "Not Found" when opening a compensation or compliance record
+**Cause**: The record doesn't exist, was deleted, or belongs to a different organization
+**Solution**:
+1. Double-check the record ID or employee name
+2. Confirm the employee is in your organization, not a related or partner organization
+3. If you believe the record should exist, contact support with the record reference
 
 **Problem**: "There are employees without Payroll Module seat" (can't create paysheet)
 **Cause**: One or more employees in the pay group show a red **Unlicensed** tag — they don't have an active Payroll seat

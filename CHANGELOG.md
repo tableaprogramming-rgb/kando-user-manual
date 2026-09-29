@@ -4,6 +4,15 @@ All notable changes to the Kando User Manual are documented in this file.
 
 ## [Unreleased] - Recent Updates (September 2026)
 
+### 🔒 Cross-Organization Data Scope Documented (QA item H2)
+- **Pages**: `hr-admin-guide/payroll-management.md`, `manager-guide/reports.md`
+- **Verified against source**: `kando-backend` `CompensationPolicy` and `ComplianceRecordHeaderPolicy` — confirmed exactly as the original analysis described: **401 Access Denied** if the user lacks the permission entirely, **404 Not Found** if the permission exists but the record belongs to a different organization
+- **Added**: "Data Privacy & Organization Scope" section in Payroll Management explaining compensation/compliance records are scoped to your own organization
+- **Added**: "Organization & Data Scope" note in Reports' existing "Report Limitations & Cautions" section
+- **Added**: Troubleshooting entries for "Access Denied" / "Not Found" errors in both pages
+- **Framing**: Presented as intentional data-privacy protection between organizations sharing a Kando instance, not as a bug fix — implementation details (policy names, IDOR terminology) intentionally excluded from customer-facing docs
+- **Source**: Item H2 in `QA_BRANCH_DOCUMENTATION_ANALYSIS.md`
+
 ### 📱 Mobile App Documented (QA items C2 + H1)
 - **New page**: `employee-guide/mobile-app.md` (Option A: dedicated mobile hub, registered in `sidebars.js`) — install/login flow, all 5 request types (Leave, Overtime, Manual Timelog, Schedule, Holiday Swap), attachments, leave balance history, My Requests/My Approvals, real-time sync, mobile-specific troubleshooting
 - **Added**: "Multi-Device Sync" and "Browser Timer Indicator" sections to `time-tracking.md` (H1), including the favicon badge color meaning (green = clocked in, yellow = on break) — a detail the original analysis didn't capture

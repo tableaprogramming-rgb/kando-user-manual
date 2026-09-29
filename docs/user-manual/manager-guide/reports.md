@@ -494,6 +494,12 @@ If Errors > 5%:
 
 ## Report Limitations & Cautions
 
+### Organization & Data Scope
+
+Reports only include data from your own organization — you won't see records for employees, teams, or compensation belonging to a different organization, even if you know their name or ID. This is intentional: it keeps payroll and compliance data private between organizations sharing the same Kando instance.
+
+If a report seems to be missing someone you expect to see, confirm they're actually part of your organization rather than a related one.
+
 ### Data Accuracy
 
 **Reports reflect**:
@@ -522,6 +528,13 @@ If Errors > 5%:
 - ❌ Don't use reports to justify predetermined decisions
 
 ## Troubleshooting
+
+**Problem**: "Access Denied" or "Not Found" when viewing a compensation/compliance record from a report
+**Cause**: The record belongs to a different organization, or you don't have the required permission
+**Solution**:
+1. Confirm the employee/record is part of your organization
+2. Verify you have the necessary payroll/compliance permission (ask your Owner or HR Admin)
+3. This is expected behavior — Kando doesn't allow cross-organization access, even accidentally
 
 **Problem**: "Report shows incomplete data"
 **Cause**: Data not entered yet, or employee hasn't clocked in
@@ -849,6 +862,6 @@ Manager: "Let's work together on this. Can we discuss scope,
 
 ---
 
-**Last Updated**: 2026-02-12
+**Last Updated**: 2026-09-29
 **Maintainer**: Analytics Operations
 **For Questions**: support@kando.com
