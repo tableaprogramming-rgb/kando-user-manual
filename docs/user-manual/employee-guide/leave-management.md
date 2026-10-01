@@ -99,7 +99,7 @@ Your Credits:
 1. You've used all your allocated leave for this leave type
 2. You have pending requests that use up your balance
 3. HR hasn't initialized credit for this leave type yet
-4. You're requesting a leave type not configured for your organization
+4. You're requesting a leave type not configured for your organization (see [Leave Type Configuration](../hr-admin-guide/system-setup.md#1-leave-type-configuration) — an HR Admin task)
 
 **How to Fix**:
 1. **Check your balance**: Go to **Leaves** → **Balance** to see exact numbers
@@ -144,7 +144,7 @@ System says: Can't approve—only 10 days available
 
 **If you can't request leave**:
 - Your organization may be in setup phase
-- HR hasn't initialized credit yet
+- HR hasn't initialized credit yet (see [Leave Type Configuration](../hr-admin-guide/system-setup.md#1-leave-type-configuration) — an HR Admin task)
 - You may not be configured as an active employee
 - Contact your HR team
 

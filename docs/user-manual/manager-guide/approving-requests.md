@@ -257,7 +257,7 @@ Different rates apply depending on context:
 | **Holiday OT** (worked on holiday) | 2x or 2.5x | 8 hrs × PHP 250 = PHP 2,000 |
 | **Rest Day OT** (worked on rest day) | 1.5x or 2x | 8 hrs × PHP 250 = PHP 2,000 |
 
-**Your Policy**: Ask HR for your organization's specific OT multipliers.
+**Your Policy**: Your organization's specific OT multipliers are set up by HR Admin — see [Overtime Limits and Rules](../hr-admin-guide/policy-configuration.md#overtime-limits-and-rules), or ask HR directly.
 
 ### Types of Overtime Requests
 
@@ -470,7 +470,7 @@ Documentation: Note in system for audit trail
 
 **Your Responsibility**: Enforce your organization's policy consistently
 
-**Ask HR**:
+**Ask HR** (or check [Overtime Limits and Rules](../hr-admin-guide/policy-configuration.md#overtime-limits-and-rules)):
 - What's the OT policy?
 - What are the limits?
 - How do I escalate when exceeded?

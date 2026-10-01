@@ -4,6 +4,12 @@ All notable changes to the Kando User Manual are documented in this file.
 
 ## [Unreleased] - Recent Updates (October 2026)
 
+### 🔗 Linked Prerequisite Setup Steps Across Role Boundaries
+- **Pattern established**: when a page tells a user they're blocked because something needs to be configured by another role, link directly to where that configuration is documented, instead of just "contact HR."
+- `employee-guide/leave-management.md` (×2) — "HR hasn't initialized credit" / "leave type not configured" now link to `hr-admin-guide/system-setup.md#1-leave-type-configuration`
+- `manager-guide/approving-requests.md` (×2) — "Ask HR for OT multipliers" / "Ask HR about OT policy" now link to `hr-admin-guide/policy-configuration.md#overtime-limits-and-rules`
+- Audited all other "contact HR/manager" mentions across the manual — the rest are generic error-escalation, not tied to a specific documented setup step, so left as-is to avoid link noise
+
 ### 🔍 Full Feature Coverage Audit + Manual Verification Pass Started
 - **Added**: `FEATURE_COVERAGE_VERIFICATION_CHECKLIST.md` — punch list from a 3-agent audit comparing the manual against every menu/page in `kando-frontend` and `kando_mobile_frontend`. Flags suspected fabricated content (e.g. `reports.md`'s "Predictive Analytics"/attrition-risk scoring, unsupported by anything in the product), real undocumented features (Documents, Compliance, Kiosk, Access Groups, and more), and inconsistencies between existing pages.
 - **Corrected** `getting-started/login-setup.md` and `employee-guide/mobile-app.md`: removed a false claim that mobile supports the same "Forgot password?" flow as web — verified the mobile app has no reachable forgot-password screen (`login.arb`'s string is dead, unused in `login_view.dart`); added it to Mobile Limitations instead.
