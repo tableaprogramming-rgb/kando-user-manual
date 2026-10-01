@@ -23,7 +23,7 @@ Time tracking records when you work and how long you work. It helps:
 3. You'll see a confirmation: "Timelog created"
 4. The timer starts running, and also appears next to your profile icon at the top of every page
 
-**Note**: You need a shift scheduled for today to clock in. If you don't have one, you'll see: "You don't have a schedule for current time." Contact your manager to get a shift assigned.
+**Note**: You need a shift scheduled for today to clock in. If you don't have one, you'll see: "You don't have a schedule for current time." Check [View Schedule](view-schedule.md) to confirm, then contact your manager to get a shift assigned.
 
 **Keyboard Shortcut**: Press `Ctrl+I` to clock in instantly
 
