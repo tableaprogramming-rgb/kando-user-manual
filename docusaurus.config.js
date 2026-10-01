@@ -66,7 +66,8 @@ const config = {
         title: '📚 Kando Documentation',
         logo: {
           alt: 'Kando Logo',
-          src: 'img/kando-logo.png',
+          src: 'img/kando-logo.svg',
+          srcDark: 'img/kando-logo-dark.svg',
         },
         items: [
           {

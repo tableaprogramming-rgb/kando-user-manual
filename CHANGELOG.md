@@ -4,6 +4,12 @@ All notable changes to the Kando User Manual are documented in this file.
 
 ## [Unreleased] - Recent Updates (September 2026)
 
+### 🎨 Fixed Broken Navbar Logo
+- **Root Cause**: `static/img/` was never committed to this repo — `docusaurus.config.js` referenced `img/kando-logo.png`, which has never existed in git history. The navbar logo has been a broken image since the Docusaurus migration.
+- **Fix**: Extracted the real Kando logo (orange-gradient circle icon + "kando" wordmark) from the inline SVG in `kando-frontend/src/assets/AppLogo.vue` and added it as `static/img/kando-logo.svg`, plus an inverted `static/img/kando-logo-dark.svg` for dark mode. Wired both into `docusaurus.config.js` (`navbar.logo.src` / `srcDark`).
+- **Verified**: `npm run build` compiles clean; both SVGs confirmed in `build/img/` and correctly swapped by Docusaurus's light/dark themed-image component.
+- **Also noted (not yet fixed)**: `favicon.ico` and `kando-social-card.png` referenced in the same config are missing for the same reason.
+
 ### 🖱️ Sidebar Auto-Collapse Documented (QA item M1)
 - **Page**: `getting-started/dashboard-overview.md` (Navigation section)
 - **Verified against source**: `kando-frontend` `AppMenu.vue`
