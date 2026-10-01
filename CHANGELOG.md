@@ -2,7 +2,15 @@
 
 All notable changes to the Kando User Manual are documented in this file.
 
-## [Unreleased] - Recent Updates (September 2026)
+## [Unreleased] - Recent Updates (October 2026)
+
+### 🔍 Full Feature Coverage Audit + Manual Verification Pass Started
+- **Added**: `FEATURE_COVERAGE_VERIFICATION_CHECKLIST.md` — punch list from a 3-agent audit comparing the manual against every menu/page in `kando-frontend` and `kando_mobile_frontend`. Flags suspected fabricated content (e.g. `reports.md`'s "Predictive Analytics"/attrition-risk scoring, unsupported by anything in the product), real undocumented features (Documents, Compliance, Kiosk, Access Groups, and more), and inconsistencies between existing pages.
+- **Corrected** `getting-started/login-setup.md` and `employee-guide/mobile-app.md`: removed a false claim that mobile supports the same "Forgot password?" flow as web — verified the mobile app has no reachable forgot-password screen (`login.arb`'s string is dead, unused in `login_view.dart`); added it to Mobile Limitations instead.
+- **Corrected** `employee-guide/time-tracking.md` Clock In/Out steps, verified against `kando-frontend`:
+  - Removed "Open Kando dashboard" — Dashboard is just the default landing route, not an action step, and more importantly **Clock In isn't on the Dashboard at all** — it's on a separate **My Time** page (`/my-records/my-time`)
+  - Replaced fabricated toast text ("You clocked in at 09:00 AM") with the real system messages: "Timelog created" (clock-in), "Are you sure you want to clock out?" (confirmation dialog), "Timelog updated" (clock-out)
+  - Added the real no-schedule block message: "You don't have a schedule for current time."
 
 ### 🎨 Fixed Broken Navbar Logo
 - **Root Cause**: `static/img/` was never committed to this repo — `docusaurus.config.js` referenced `img/kando-logo.png`, which has never existed in git history. The navbar logo has been a broken image since the Docusaurus migration.

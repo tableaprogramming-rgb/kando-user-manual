@@ -174,7 +174,7 @@ You're now logged out. Close the browser window to be safe.
 5. On the **Set a New Password** page, enter and confirm your **New Password**, then submit
 6. You'll see: *"Your password has been successfully updated."* Login with your new password.
 
-*This same process works from the Kando mobile app.*
+**Note**: The mobile app doesn't have a "Forgot password?" option yet. If you're locked out and only have the mobile app, open a browser and use the web login page to reset your password — then log back into the mobile app with your new password.
 
 ### "Browser Error / Won't Load"
 - Refresh the page (F5)

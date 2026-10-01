@@ -18,10 +18,12 @@ Time tracking records when you work and how long you work. It helps:
 **Goal**: Start tracking your work time for the day
 
 **Steps**:
-1. Open Kando dashboard
-2. Click the **Clock In** button (large button at top)
-3. You'll see confirmation: "You clocked in at 09:00 AM"
-4. Status changes to "Clocked In"
+1. Click **My Time** in the left menu
+2. Click **Clock In**
+3. You'll see a confirmation: "Timelog created"
+4. The timer starts running, and also appears next to your profile icon at the top of every page
+
+**Note**: You need a shift scheduled for today to clock in. If you don't have one, you'll see: "You don't have a schedule for current time." Contact your manager to get a shift assigned.
 
 **Keyboard Shortcut**: Press `Ctrl+I` to clock in instantly
 
@@ -30,10 +32,10 @@ Time tracking records when you work and how long you work. It helps:
 **Goal**: Stop tracking your work time
 
 **Steps**:
-1. When ending work, go to dashboard
-2. Click **Clock Out** button
-3. You'll see confirmation: "You clocked out at 05:00 PM"
-4. Status changes to "Clocked Out"
+1. Click **My Time** in the left menu (or click the running timer at the top of the page)
+2. Click **Clock Out**
+3. Confirm when asked: "Are you sure you want to clock out?"
+4. You'll see a confirmation: "Timelog updated"
 
 **Keyboard Shortcut**: Press `Ctrl+O` to clock out instantly
 

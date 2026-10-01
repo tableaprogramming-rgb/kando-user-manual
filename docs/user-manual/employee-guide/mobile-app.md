@@ -74,6 +74,8 @@ Changes sync instantly between mobile and web while both are open and connected 
 A few things are web-only for now:
 
 - **Payslips** — not available on mobile yet. View your payslip on web under [Payslip & Compensation](payslip-compensation.md)
+- **Password reset** — there's no "Forgot password?" option in the app. Reset your password on web, then log back into the app
+- **Changing your password / editing your profile** — not available on mobile; do this on web under [Login & Setup](../getting-started/login-setup.md)
 - **Offline use** — the app needs an internet connection; there's no offline mode
 - **Detailed approval filters** — mobile's My Approvals only has a search box; for filtering by date or request type, use web
 
@@ -95,6 +97,7 @@ A few things are web-only for now:
 ### Can't Log In
 - Double check your **Organization domain** matches your company's Kando web address
 - Verify email and password are correct (same as web)
+- Forgot your password? The app doesn't have a reset option — open a browser, reset it on the web login page, then come back and log into the app with your new password
 - Contact HR if you're not sure of your organization domain
 
 ### Clock In/Out Button Not Working
